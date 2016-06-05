@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <game 
 	name="The Spoils" 
-	id="844d5fe3-bdb5-4ad2-ba83-88c2c2db6d88" 
-	octgnVersion="3.1.126.269" 
-	version="1.4.4.6" 
+	id="b9cd80f4-2af0-11e6-b67b-9e71128cae77" 
+	octgnVersion="3.1.17.100" 
+	scriptVersion="3.1.0.1"
+	version="1.4.4.9" 
 	markersize="16" 
 	tags="game octgn The Spoils best game ever" 
 	description="The Spoils is perhaps the best CCG ever conceived. 
-&#xD;
-Download the full card images here: http://www.TheWorldsNotes.com
-&#xD;&#xD;&#xD;&#xD;
-In 2001, a team of hardcore gamers, top-level pro players and veteran game developers locked themselves away in a small room to create the world's best trading card game. The Spoils was the result and, after five years of skillful testing, it was unleashed upon the world.
-&#xD;&#xD;
-The Spoils is also the unique vision of a fantasy world gone terribly wrong. Sometimes comical, often bizarre, the dark whimsy and grisly humor of The Spoils is sure to delight and entertain.
-&#xD;&#xD;
-If you resurrected JRR Tolkien, HP Lovecraft and Lewis Carroll, and then forced them to write an epic together, it might come out something like The Spoils." 
+	&#xD;
+	Download the full card images here: http://www.TheWorldsNotes.com
+	&#xD;&#xD;&#xD;&#xD;
+	In 2001, a team of hardcore gamers, top-level pro players and veteran game developers locked themselves away in a small room to create the world's best trading card game. The Spoils was the result and, after five years of skillful testing, it was unleashed upon the world.
+	&#xD;&#xD;
+	The Spoils is also the unique vision of a fantasy world gone terribly wrong. Sometimes comical, often bizarre, the dark whimsy and grisly humor of The Spoils is sure to delight and entertain.
+	&#xD;&#xD;
+	If you resurrected JRR Tolkien, HP Lovecraft and Lewis Carroll, and then forced them to write an epic together, it might come out something like The Spoils." 
 	setsurl="http://www.theworldsnotes.com" 
 	gameurl="http://www.thespoils.com" 
 	authors="TriAdX cameris" 
 	iconurl="http://theworldsnotes.com/images/Spoils_logo_trans.png">
-
+ 
 <scripts>
 	<script src="Scripts/actions.py" />
 	<script src="Scripts/changelog.py" />
@@ -47,7 +49,12 @@ If you resurrected JRR Tolkien, HP Lovecraft and Lewis Carroll, and then forced 
 	<document name="The Spoils Basic Rules" icon="documents/images/help.png" src="documents/basic_rules.html" />
 	<document name="The Spoils OCTGN Interface" icon="documents/images/help.png" src="documents/interface.html" />
 </documents>
-
+  <gameModes>
+  	<gameMode name="Advanced Play" shortDescription="Use this matchmaking to find advanced players." image="cards/advanced.jpg" playerCount="2" />
+    <gameMode name="Casual Play" shortDescription="Use this matchmaking to find casual and newer players." image="cards/casual.jpg" playerCount="2" />
+    <gameMode name="OCTGN League" shortDescription="Use this matchmaking to find OCTGN league players." image="cards/league.jpg" playerCount="2" />
+    <gameMode name="Sealed/Limited" shortDescription="Use this matchmaking to find Sealed players." image="cards/sealed.jpg" playerCount="2" />
+  </gameModes>
 <globalvariables>
 	<globalvariable name="attached" value="{}" />
 	<globalvariable name="response_stack" value="[]" />

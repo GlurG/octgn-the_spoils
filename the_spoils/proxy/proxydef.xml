@@ -420,7 +420,15 @@
 	</textblocks>
 </template>
 
-
+<template src="proxy/back/u-c.jpg" >
+    <matches> <match name="Trade" value="Universal" /> <match name="Type" value="Character" /> </matches>
+    <textblocks>
+	<link block="title"> <property name="Name" /> </link> <link block="costw"> <property name="Cost" /> </link> <link block="threshold"> <property name="Threshold" /> </link>
+	<link block="type" separator=" -  "> <property name="Trade" /><property name="Type" /> <property name="Subtype" /> </link>
+	<link block="rules"> <property name="Card Text" /> </link>
+	<link block="strw"> <property name="Strength" /> </link><link block="lfew"> <property name="Life" /> </link><link block="spdw"> <property name="Speed" /></link><link block="rarity"> <property name="Rarity" /></link>
+	</textblocks>
+</template>
 <template src="proxy/back/u-l.jpg" >
     <matches> <match name="Trade" value="Universal" /> <match name="Type" value="Location" /> </matches>
     <textblocks>

@@ -396,20 +396,14 @@ def toggle_dont_restore(card, x = 0, y = 0): # {{{
 def destroy(card, x = 0, y = 0):
 	mute()
 	src = card.group
-	if src == table:
-		notify("{} destroys {} from play".format(me, card))
+	fromText = " from play" if src == table else " from their " + src.name
+	notify("{} destroys {}{}.".format(me, card, fromText))
 	card.moveTo(card.owner.piles['Discard pile'])
-	if src != table:
-		notify("{} destroys {} from their {}.".format(me, card, src.name))
 
 def removefromgame(card, x = 0, y = 0):
 	mute()
-	src = card.group
-	if src == table:
-		notify("{} removes {} from game.".format(me, card))
+	notify("{} removes {} from game.".format(me, card))
 	card.moveTo(card.owner.piles['out of game'])
-	if src != table:
-		notify("{} removes {} from game.".format(me, card))
 
 def movetodrawdeck(card, x = 0, y = 0):
 	mute()
@@ -423,11 +417,9 @@ def tohand(card, x = 0, y = 0):
 	mute()
 	if card.owner == me:
 		src = card.group
-		if src == table:
-			notify("{} returns {} to their hand from table.".format(me, card))
+		fromText = " from the table" if src == table else " from their " + src.name
+		notify("{} returns {} to their hand{}.".format(me, card, fromText))
 		card.moveTo(me.hand)
-		if src != table:
-			notify("{} returns {} to their hand from their {}.".format(me, card, src.name))
 	else:
 		whisper("You do not own {}".format(card))
 
@@ -766,8 +758,6 @@ def on_turn(player, turn): # {{{
 	# }}}
 
 def on_card_click(card, button, keys): # {{{
-	if card == None:
-		return
 	if card.controller == me:
 		if button == 0: # left click
 			if 'Tab' in keys:
