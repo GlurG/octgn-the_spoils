@@ -1,216 +1,188 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<game 
-	name="The Spoils" 
+<game
 	id="b9cd80f4-2af0-11e6-b67b-9e71128cae77" 
-	octgnVersion="3.1.17.100" 
-	scriptVersion="3.1.0.1"
-	version="1.4.4.9" 
-	markersize="16" 
-	tags="game octgn The Spoils best game ever" 
-	description="The Spoils is perhaps the best CCG ever conceived. 
-	&#xD;
-	Download the full card images here: http://www.TheWorldsNotes.com
-	&#xD;&#xD;&#xD;&#xD;
-	In 2001, a team of hardcore gamers, top-level pro players and veteran game developers locked themselves away in a small room to create the world's best trading card game. The Spoils was the result and, after five years of skillful testing, it was unleashed upon the world.
-	&#xD;&#xD;
-	The Spoils is also the unique vision of a fantasy world gone terribly wrong. Sometimes comical, often bizarre, the dark whimsy and grisly humor of The Spoils is sure to delight and entertain.
-	&#xD;&#xD;
-	If you resurrected JRR Tolkien, HP Lovecraft and Lewis Carroll, and then forced them to write an epic together, it might come out something like The Spoils." 
-	setsurl="http://www.theworldsnotes.com" 
-	gameurl="http://www.thespoils.com" 
-	authors="TriAdX cameris" 
-	iconurl="http://theworldsnotes.com/images/Spoils_logo_trans.png">
- 
-<scripts>
-	<script src="Scripts/actions.py" />
-	<script src="Scripts/changelog.py" />
-</scripts>
+	version="1.0.0.0" octgnVersion="3.1.17.100" scriptVersion="3.1.0.1"
+	name="The Spoils (Spoils Toolbox fork)" tags="spoils" markersize="16"
+	description="Download card images here: https://www.spoilstoolbox.com/octgn"
+	setsurl="https://www.spoilstoolbox.com/octgn"
+	gameurl="http://thespoilscardgame.com/"
+	iconurl="http://theworldsnotes.com/images/Spoils_logo_trans.png"
+	authors="TriAdX cameris GlurG">
+	<scripts>
+		<script src="Scripts/actions.py" />
+		<script src="Scripts/changelog.py" />
+	</scripts>
 
-<events>
-	<event name="OnTableLoad" action="on_table_load" />
-	<event name="OnGameStart" action="on_game_start" />
-	<event name="OnLoadDeck" action="on_load_deck" />
-	<event name="OnMoveCard" action="on_move_card" />
-	<event name="OnGlobalVariableChanged" action="on_glob_var_change" />
-	<event name="OnTurn" action="on_turn" />
-	<event name="OnTurn" action="on_turn" />
-	<event name="OnCardClick" action="on_card_click" />
-</events>
+	<events>
+		<event name="OnTableLoad" action="on_table_load" />
+		<event name="OnGameStart" action="on_game_start" />
+		<event name="OnLoadDeck" action="on_load_deck" />
+		<event name="OnMoveCard" action="on_move_card" />
+		<event name="OnGlobalVariableChanged" action="on_glob_var_change" />
+		<event name="OnTurn" action="on_turn" />
+		<event name="OnTurn" action="on_turn" />
+		<event name="OnCardClick" action="on_card_click" />
+	</events>
 
-<fonts>
-	<font src="fonts/mplantin.ttf" size="14" target="context"/>
-</fonts>
+	<fonts>
+		<font src="fonts/mplantin.ttf" size="14" target="context"/>
+	</fonts>
 
-<proxygen definitionsrc="Proxy/proxydef.xml">
-</proxygen>
+	<proxygen definitionsrc="Proxy/proxydef.xml"></proxygen>
 
-<documents>
-	<document name="The Spoils Basic Rules" icon="documents/images/help.png" src="documents/basic_rules.html" />
-	<document name="The Spoils OCTGN Interface" icon="documents/images/help.png" src="documents/interface.html" />
-</documents>
-  <gameModes>
-  	<gameMode name="Advanced Play" shortDescription="Use this matchmaking to find advanced players." image="cards/advanced.jpg" playerCount="2" />
-    <gameMode name="Casual Play" shortDescription="Use this matchmaking to find casual and newer players." image="cards/casual.jpg" playerCount="2" />
-    <gameMode name="OCTGN League" shortDescription="Use this matchmaking to find OCTGN league players." image="cards/league.jpg" playerCount="2" />
-    <gameMode name="Sealed/Limited" shortDescription="Use this matchmaking to find Sealed players." image="cards/sealed.jpg" playerCount="2" />
-  </gameModes>
-<globalvariables>
-	<globalvariable name="attached" value="{}" />
-	<globalvariable name="response_stack" value="[]" />
-</globalvariables>
+	<documents>
+		<document name="The Spoils Basic Rules" icon="documents/images/help.png" src="documents/basic_rules.html" />
+		<document name="The Spoils OCTGN Interface" icon="documents/images/help.png" src="documents/interface.html" />
+	</documents>
 
-<card back="cards/cardback01.jpg" front="cards/cardfront01.jpg" width="63" height="88">
-	<property name="Card Number" type="String"></property>
-	<property name="Rarity" type="String"></property>
-	<property name="Trade" type="String"></property>
-	<property name="Type" type="String"></property>
-	<property name="Subtype" type="String"></property>
-	<property name="Threshold" type="String"></property>
-	<property name="Cost" type="String"></property>
-	<property name="Strength" type="String"></property>
-	<property name="Life" type="String"></property>
-	<property name="Speed" type="String"></property>
-	<property name="Structure" type="String"></property>
-	<property name="Card Text" type="String"></property>
-	<property name="Flavor" type="String"></property>
-</card>
+	<gameModes>
+		<gameMode name="Advanced Play" shortDescription="Use this matchmaking to find advanced players." image="cards/advanced.jpg" playerCount="2" />
+		<gameMode name="Casual Play" shortDescription="Use this matchmaking to find casual and newer players." image="cards/casual.jpg" playerCount="2" />
+		<gameMode name="OCTGN League" shortDescription="Use this matchmaking to find OCTGN league players." image="cards/league.jpg" playerCount="2" />
+		<gameMode name="Sealed/Limited" shortDescription="Use this matchmaking to find Sealed players." image="cards/sealed.jpg" playerCount="2" />
+	</gameModes>
 
-<table name="Table" visibility="undefined" ordered="False" width="700" height="500" board="board/sky.jpg" boardPosition="0,0,0,0" background="board/sky.jpg" backgroundStyle="stretch">
+	<globalvariables>
+		<globalvariable name="attached" value="{}" />
+		<globalvariable name="response_stack" value="[]" />
+	</globalvariables>
 
-	<cardaction menu="Use Ability (Tab+LeftClick)" shortcut="ctrl+E" batchExecute="use_ability" />
-	<cardaction menu="Deplete/Restore|Attach/Detach Resource" default="True" batchExecute="default_action" />
-	<cardaction menu="Attach/Detach Resource to/from Faction" shortcut="F7" batchExecute="attach_to_faction" />
-	<cardaction menu="Deplete/Restore" shortcut="F8" batchExecute="deplete" />
-	<cardaction menu="Attack" shortcut="ctrl+A" batchExecute="attack" />
-	<cardaction menu="Block" shortcut="ctrl+B" execute="block" />
-	<cardaction menu="Attach/Detach" shortcut="ctrl+Q" execute="attach" />
-	<cardaction menu="Clear Card" shortcut="esc" execute="clear" />
-	<cardactions menu="Tokens/Markers..." >
-		<cardaction menu="Add Token" shortcut="ctrl+1" execute="add_token" />
-		<cardaction menu="Remove Token" shortcut="ctrl+2" execute="remove_token" />
-		<cardaction menu="Add Location Damage" shortcut="ctrl+3" execute="add_loc_dmg" />
-		<cardaction menu="Remove Location Damage" shortcut="ctrl+4" execute="remove_loc_dmg" />
-		<cardaction menu="Toggle Don't Restore" shortcut="ctrl+5" execute="toggle_dont_restore" />
-		<cardaction menu="Add Tokens/Markers..." shortcut="ctrl+M" batchExecute="add_marker" />
-	</cardactions>
-	<cardactions menu="Flip Card..." >
-		<cardaction menu="Flip Up / Flip Down" shortcut="ctrl+F" batchExecute="flip_up" />
-		<cardaction menu="Reveal / Hide" shortcut="alt+F" execute="reveal" />
-	</cardactions>
-	<cardactions menu="Move to..." >
-		<cardaction menu="Hand" shortcut="ctrl+H" execute="tohand" />
-		<cardaction menu="Discard Pile" shortcut="del" execute="destroy" />
-		<cardaction menu="Out of Game" shortcut="ctrl+X" execute="removefromgame" />
-		<cardaction menu="Draw Deck" shortcut="ctrl+Z" execute="movetodrawdeck" />
-		<cardaction menu="Bottom of Draw Deck" shortcut="ctrl+alt+Z" execute="movetobottom" />
-	</cardactions>
-	<groupaction menu="Rearrange Cards" shortcut="ctrl+W" execute="arrange_cards" />
-	<groupaction menu="Clear targets and combat" shortcut="Esc" execute="clearAll" />
-	<groupaction menu="No" shortcut="F1" execute="answer_no" />
-	<groupaction menu="Yes" shortcut="F2" execute="answer_yes" />
-	<groupaction menu="Create single Micromajig" shortcut="alt+M" execute="micromajig" />
-	<groupaction menu="Create Micromajig" shortcut="ctrl+M" execute="micromajig_menu" />
-	<groupaction menu="Roll 20-sided Die" shortcut="ctrl+shift+R" execute="roll20" />
-	<groupaction menu="Roll 6-sided Die" shortcut="ctrl+R" execute="roll6" />
-	<groupaction menu="Flip a Coin" shortcut="ctrl+F" execute="flipCoin" />
-	<groupactions menu="Phases / Steps..." > 
-		<!--<groupaction menu="Use Restore Rule" shortcut="F1" execute="goToRestore" />-->
-		<!--<groupaction menu="Use Development Rule" shortcut="F2" execute="goToDevelopment" />-->
-		<!--<groupaction menu="Enter Attack" shortcut="F3" execute="goToAttack" />-->
-		<!--<groupaction menu="Resolve Battle/Speed" shortcut="F4" execute="goToResolve" />-->
-		<groupaction menu="Use Restore Rule" shortcut="F3" execute="goToRestore" />
-		<groupaction menu="Use Development Rule" shortcut="F4" execute="goToDevelopment" />
-		<groupaction menu="END turn" shortcut="F5" execute="goToEnd" />
-		<groupaction menu="Display Current Phase" shortcut="ctrl+shift+n" execute="showCurrentPhase" />
-		<groupaction menu="Next Phase" shortcut="ctrl+n" execute="nextPhase" />
-		<groupaction menu="Reset Response Stack" execute="end_response" />
-	</groupactions>
-	<groupactions menu="Game Settings">
-		<groupaction menu="Layout" execute="change_layout" />
-		<groupaction menu="Layout spaces" execute="change_spacer" />
-		<groupaction menu="Attach resources to left/right" execute="change_res_attach" />
-		<groupaction menu="Seating order" execute="change_seating_order" />
-	</groupactions>
-	<groupaction menu="Scoop" execute="scoop" />
+	<card back="cards/cardback01.jpg" front="cards/cardfront01.jpg" width="63" height="88">
+		<property name="Rarity" type="String"></property>
+		<property name="Trade" type="String"></property>
+		<property name="Type" type="String"></property>
+		<property name="Subtype" type="String"></property>
+		<property name="Threshold" type="String"></property>
+		<property name="Cost" type="String"></property>
+		<property name="Strength" type="String"></property>
+		<property name="Life" type="String"></property>
+		<property name="Speed" type="String"></property>
+		<property name="Structure" type="String"></property>
+		<property name="Text" type="String"></property>
+	</card>
 
-</table>
+	<table name="Table" visibility="undefined" ordered="False" width="700" height="500" board="board/sky.jpg" boardPosition="0,0,0,0" background="board/sky.jpg" backgroundStyle="stretch">
+		<cardaction menu="Use Ability (Tab+LeftClick)" shortcut="ctrl+E" batchExecute="use_ability" />
+		<cardaction menu="Deplete/Restore|Attach/Detach Resource" default="True" batchExecute="default_action" />
+		<cardaction menu="Attach/Detach Resource to/from Faction" shortcut="F7" batchExecute="attach_to_faction" />
+		<cardaction menu="Deplete/Restore" shortcut="F8" batchExecute="deplete" />
+		<cardaction menu="Attack" shortcut="ctrl+A" batchExecute="attack" />
+		<cardaction menu="Block" shortcut="ctrl+B" execute="block" />
+		<cardaction menu="Attach/Detach" shortcut="ctrl+Q" execute="attach" />
+		<cardaction menu="Clear Card" shortcut="esc" execute="clear" />
+		<cardactions menu="Tokens/Markers..." >
+			<cardaction menu="Add Token" shortcut="ctrl+1" execute="add_token" />
+			<cardaction menu="Remove Token" shortcut="ctrl+2" execute="remove_token" />
+			<cardaction menu="Add Location Damage" shortcut="ctrl+3" execute="add_loc_dmg" />
+			<cardaction menu="Remove Location Damage" shortcut="ctrl+4" execute="remove_loc_dmg" />
+			<cardaction menu="Toggle Don't Restore" shortcut="ctrl+5" execute="toggle_dont_restore" />
+			<cardaction menu="Add Tokens/Markers..." shortcut="ctrl+M" batchExecute="add_marker" />
+		</cardactions>
+		<cardactions menu="Flip Card..." >
+			<cardaction menu="Flip Up / Flip Down" shortcut="ctrl+F" batchExecute="flip_up" />
+			<cardaction menu="Reveal / Hide" shortcut="alt+F" execute="reveal" />
+		</cardactions>
+		<cardactions menu="Move to..." >
+			<cardaction menu="Hand" shortcut="ctrl+H" execute="tohand" />
+			<cardaction menu="Discard Pile" shortcut="del" execute="destroy" />
+			<cardaction menu="Out of Game" shortcut="ctrl+X" execute="removefromgame" />
+			<cardaction menu="Draw Deck" shortcut="ctrl+Z" execute="movetodrawdeck" />
+			<cardaction menu="Bottom of Draw Deck" shortcut="ctrl+alt+Z" execute="movetobottom" />
+		</cardactions>
+		<groupaction menu="Rearrange Cards" shortcut="ctrl+W" execute="arrange_cards" />
+		<groupaction menu="Clear targets and combat" shortcut="Esc" execute="clearAll" />
+		<groupaction menu="No" shortcut="F1" execute="answer_no" />
+		<groupaction menu="Yes" shortcut="F2" execute="answer_yes" />
+		<groupaction menu="Create single Micromajig" shortcut="alt+M" execute="micromajig" />
+		<groupaction menu="Create Micromajig" shortcut="ctrl+M" execute="micromajig_menu" />
+		<groupaction menu="Roll 20-sided Die" shortcut="ctrl+shift+R" execute="roll20" />
+		<groupaction menu="Roll 6-sided Die" shortcut="ctrl+R" execute="roll6" />
+		<groupaction menu="Flip a Coin" shortcut="ctrl+F" execute="flipCoin" />
+		<groupactions menu="Phases / Steps..." >
+			<!--<groupaction menu="Use Restore Rule" shortcut="F1" execute="goToRestore" />-->
+			<!--<groupaction menu="Use Development Rule" shortcut="F2" execute="goToDevelopment" />-->
+			<!--<groupaction menu="Enter Attack" shortcut="F3" execute="goToAttack" />-->
+			<!--<groupaction menu="Resolve Battle/Speed" shortcut="F4" execute="goToResolve" />-->
+			<groupaction menu="Use Restore Rule" shortcut="F3" execute="goToRestore" />
+			<groupaction menu="Use Development Rule" shortcut="F4" execute="goToDevelopment" />
+			<groupaction menu="END turn" shortcut="F5" execute="goToEnd" />
+			<groupaction menu="Display Current Phase" shortcut="ctrl+shift+n" execute="showCurrentPhase" />
+			<groupaction menu="Next Phase" shortcut="ctrl+n" execute="nextPhase" />
+			<groupaction menu="Reset Response Stack" execute="end_response" />
+		</groupactions>
+		<groupactions menu="Game Settings">
+			<groupaction menu="Layout" execute="change_layout" />
+			<groupaction menu="Layout spaces" execute="change_spacer" />
+			<groupaction menu="Attach resources to left/right" execute="change_res_attach" />
+			<groupaction menu="Seating order" execute="change_seating_order" />
+		</groupactions>
+		<groupaction menu="Scoop" execute="scoop" />
+	</table>
 
-<player summary="{#Influence} / {#Hand} / {#Discard pile} [{#Obsession},{#Greed},{#Elitism},{#Deception},{#Rage},{#Volition}]">
-	<counter name="Influence" icon="counters/influence.png" default="25"></counter>
-	<counter name="Obsession" icon="counters/small_obsession.png"></counter>
-	<counter name="Greed" icon="counters/small_greed.png"></counter>
-	<counter name="Elitism" icon="counters/small_elitism.png"></counter>
-	<counter name="Deception" icon="counters/small_deception.png"></counter>
-	<counter name="Rage" icon="counters/small_rage.png"></counter>
-	<counter name="Volition" icon="counters/small_staple.png"></counter>
+	<player summary="{#Influence} / {#Hand} / {#Discard pile} [{#Obsession},{#Greed},{#Elitism},{#Deception},{#Rage},{#Volition}]">
+		<counter name="Influence" icon="counters/influence.png" default="25"></counter>
+		<counter name="Obsession" icon="counters/small_obsession.png"></counter>
+		<counter name="Greed" icon="counters/small_greed.png"></counter>
+		<counter name="Elitism" icon="counters/small_elitism.png"></counter>
+		<counter name="Deception" icon="counters/small_deception.png"></counter>
+		<counter name="Rage" icon="counters/small_rage.png"></counter>
+		<counter name="Volition" icon="counters/small_staple.png"></counter>
 
-<hand name="Hand" shortcut="ctrl+H" visibility="me" ordered="False" width="63" height="88" icon="groups/hand.png"> 
+		<hand name="Hand" shortcut="ctrl+H" visibility="me" ordered="False" width="63" height="88" icon="groups/hand.png">
+			<groupaction menu="Random Discard" execute="randomDiscard" />
+			<cardaction menu="Play Card" default="True" execute="play" />
+			<cardaction menu="Discard Card" shortcut="del" execute="discard" />
+			<cardaction menu="Play Resource (LeftAlt+LeftClick)" shortcut="F9"  execute="playresource" />
+			<cardaction menu="Remove Card from Game" shortcut="ctrl+X" execute="removefromgame" />
+			<cardaction menu="Move to Draw Deck" shortcut="ctrl+Z" execute="movetodrawdeck" />
+			<cardaction menu="Move to Bottom of Draw Deck" shortcut="ctrl+alt+Z" execute="movetobottom" />
+			<cardaction menu="Use Ability (Tab+LeftClick)" shortcut="ctrl+E" execute="use_ability" />
+		</hand>
 
-	<groupaction menu="Random Discard" execute="randomDiscard" />
-	<cardaction menu="Play Card" default="True" execute="play" />
-	<cardaction menu="Discard Card" shortcut="del" execute="discard" />
-	<cardaction menu="Play Resource (LeftAlt+LeftClick)" shortcut="F9"  execute="playresource" />
-	<cardaction menu="Remove Card from Game" shortcut="ctrl+X" execute="removefromgame" />
-	<cardaction menu="Move to Draw Deck" shortcut="ctrl+Z" execute="movetodrawdeck" />
-	<cardaction menu="Move to Bottom of Draw Deck" shortcut="ctrl+alt+Z" execute="movetobottom" />
-	<cardaction menu="Use Ability (Tab+LeftClick)" shortcut="ctrl+E" execute="use_ability" />
+		<group name="Draw deck" shortcut="ctrl+Z" visibility="none" width="63" height="88" icon="groups/draw_deck.png">
+			<groupaction menu="Shuffle" shortcut="ctrl+S" execute="shuffle" />
+			<groupaction menu="Draw" shortcut="ctrl+D" default="True" execute="draw" />
+			<groupaction menu="Draw Many" shortcut="ctrl+shift+D" execute="drawMany" />
+			<groupaction menu="Destroy X Cards" shortcut="del" execute="destroyxcards" />
+			<groupaction menu="Remove X Cards from Game" execute="removexcards" />
+			<cardaction menu="Play face-down" execute="playfacedown" />
+			<cardaction menu="Destroy Card" shortcut="del" execute="destroy" />
+			<cardaction menu="Use Ability (Tab+LeftClick)" shortcut="ctrl+E" execute="use_ability" />
+			<cardactions menu="Move to..." >
+				<cardaction menu="Hand" shortcut="ctrl+H" execute="tohand" />
+				<cardaction menu="Discard Pile" shortcut="del" execute="destroy" />
+				<cardaction menu="Out of Game" shortcut="ctrl+X" execute="removefromgame" />
+				<cardaction menu="Bottom of Draw Deck" shortcut="ctrl+alt+Z" execute="movetobottom" />
+			</cardactions>
+		</group>
 
-</hand>
+		<group name="Discard pile" shortcut="del" visibility="all" width="63" height="88" icon="groups/discard.png" >
+			<groupaction menu="Shuffle" shortcut="ctrl+S" execute="shuffle" />
+			<groupaction menu="Randomly draw a Card" execute="randomdraw" />
+			<cardaction menu="Play face-down" execute="playfacedown" />
+			<cardaction menu="Use Ability (Tab+LeftClick)" shortcut="ctrl+E" execute="use_ability" />
+			<cardactions menu="Move to..." >
+				<cardaction menu="Hand" shortcut="ctrl+H" execute="tohand" />
+				<cardaction menu="Out of Game" shortcut="ctrl+X" execute="removefromgame" />
+				<cardaction menu="Draw Deck" shortcut="ctrl+Z" execute="movetodrawdeck" />
+				<cardaction menu="Bottom of Draw Deck" shortcut="ctrl+alt+Z" execute="movetobottom" />
+			</cardactions>
+		</group>
 
-<group name="Draw deck" shortcut="ctrl+Z" visibility="none" width="63" height="88" icon="groups/draw_deck.png">
+		<group name="Out of game" shortcut="ctrl+X" visibility="all" width="63" height="88" icon="groups/oog.png" collapsed="True">
+			<groupaction menu="Shuffle" shortcut="ctrl+S" execute="shuffle" />
+			<cardactions menu="Move to..." >
+				<cardaction menu="Hand" shortcut="ctrl+H" execute="tohand" />
+				<cardaction menu="Discard Pile" shortcut="del" execute="destroy" />
+				<cardaction menu="Draw Deck" shortcut="ctrl+Z" execute="movetodrawdeck" />
+				<cardaction menu="Bottom of Draw Deck" shortcut="ctrl+alt+Z" execute="movetobottom" />
+			</cardactions>
+		</group>
+	</player>
 
-	<groupaction menu="Shuffle" shortcut="ctrl+S" execute="shuffle" />
-	<groupaction menu="Draw" shortcut="ctrl+D" default="True" execute="draw" />
-	<groupaction menu="Draw Many" shortcut="ctrl+shift+D" execute="drawMany" />
-	<groupaction menu="Destroy X Cards" shortcut="del" execute="destroyxcards" />
-	<groupaction menu="Remove X Cards from Game" execute="removexcards" />
-	<cardaction menu="Play face-down" execute="playfacedown" />
-	<cardaction menu="Destroy Card" shortcut="del" execute="destroy" />
-	<cardaction menu="Use Ability (Tab+LeftClick)" shortcut="ctrl+E" execute="use_ability" />
-	<cardactions menu="Move to..." >
-		<cardaction menu="Hand" shortcut="ctrl+H" execute="tohand" />
-		<cardaction menu="Discard Pile" shortcut="del" execute="destroy" />
-		<cardaction menu="Out of Game" shortcut="ctrl+X" execute="removefromgame" />
-		<cardaction menu="Bottom of Draw Deck" shortcut="ctrl+alt+Z" execute="movetobottom" />
-	</cardactions>
-
-</group>
-
-<group name="Discard pile" shortcut="del" visibility="all" width="63" height="88" icon="groups/discard.png" >
-
-	<groupaction menu="Shuffle" shortcut="ctrl+S" execute="shuffle" />
-	<groupaction menu="Randomly draw a Card" execute="randomdraw" />
-	<cardaction menu="Play face-down" execute="playfacedown" />
-	<cardaction menu="Use Ability (Tab+LeftClick)" shortcut="ctrl+E" execute="use_ability" />
-	<cardactions menu="Move to..." >
-		<cardaction menu="Hand" shortcut="ctrl+H" execute="tohand" />
-		<cardaction menu="Out of Game" shortcut="ctrl+X" execute="removefromgame" />
-		<cardaction menu="Draw Deck" shortcut="ctrl+Z" execute="movetodrawdeck" />
-		<cardaction menu="Bottom of Draw Deck" shortcut="ctrl+alt+Z" execute="movetobottom" />
-	</cardactions>
-
-</group>
-
-<group name="Out of game" shortcut="ctrl+X" visibility="all" width="63" height="88" icon="groups/oog.png" collapsed="True">
-
-	<groupaction menu="Shuffle" shortcut="ctrl+S" execute="shuffle" />
-	<cardactions menu="Move to..." >
-		<cardaction menu="Hand" shortcut="ctrl+H" execute="tohand" />
-		<cardaction menu="Discard Pile" shortcut="del" execute="destroy" />
-		<cardaction menu="Draw Deck" shortcut="ctrl+Z" execute="movetodrawdeck" />
-		<cardaction menu="Bottom of Draw Deck" shortcut="ctrl+alt+Z" execute="movetobottom" />
-	</cardactions>
-
-</group>
-
-</player>
-
-<deck>
-
-	<section name="Game Deck" group="Draw deck"></section>
-	<section name="Faction" group="Hand"></section>
-
-</deck>
-
+	<deck>
+		<section name="Game Deck" group="Draw deck"></section>
+		<section name="Faction" group="Hand"></section>
+	</deck>
 </game>
