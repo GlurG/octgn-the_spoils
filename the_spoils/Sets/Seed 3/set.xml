@@ -1,70 +1,52 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 
 <set gameId="b9cd80f4-2af0-11e6-b67b-9e71128cae77" gameVersion="1.3.1" id="b6c94ada-f56e-41e5-80d0-c90186e23459" name="Seed 3" version="1.0">
-	<packaging>
-		<pack id="eb9baf8c-3186-4098-994f-5da3054a74c1" name="Booster">
-			<pick key="Rarity" qty="9" value="common"/>
-			<pick key="Rarity" qty="3" value="uncommon"/>
-			<pick key="Rarity" qty="1" value="rare"/>
-		</pack>
-	</packaging>
 	<cards>
 		<card id="0833ee0d-bce2-43b5-bb59-c01271b2aad5" name="Cowslaw">
-			<property name="Rarity" value="fixed"/>
-			<property name="Trade" value="arcanist"/>
-			<property name="Type" value="tactic"/>
+			<property name="Rarity" value="Fixed"/>
+			<property name="Trade" value="Arcanist"/>
+			<property name="Type" value="Tactic"/>
 			<property name="Subtype" value=""/>
-			<property name="Threshold" value="o"/>
+			<property name="Threshold" value="O"/>
 			<property name="Cost" value="1"/>
 			<property name="Strength" value=""/>
 			<property name="Life" value=""/>
 			<property name="Speed" value=""/>
 			<property name="Structure" value=""/>
-			<property name="Text" value="EXTRA COST: Choose a number for X that is greater than 0. Remove X tactics in your discard pile from the game.
-You may search your deck for a tactic with numeric cost X or less and reveal it. If you do, put it into your hand.
-FLIP UP: 1 [O] and draw a card."/>
+			<property name="Text" value="EXTRA COST: Choose a number for X that is greater than 0. Remove X tactics in your discard pile from the game.&amp;#10;You may search your deck for a tactic with numeric cost X or less and reveal it. If you do, put it into your hand.&amp;#10;FLIP UP: 1 [O] and draw a card."/>
 		</card>
 		<card id="186b8e6c-7c64-42e9-b885-bf7b26fdf387" name="Devilfang Thunderhoof">
-			<property name="Rarity" value="fixed"/>
-			<property name="Trade" value="arcanist"/>
-			<property name="Type" value="character"/>
+			<property name="Rarity" value="Fixed"/>
+			<property name="Trade" value="Arcanist"/>
+			<property name="Type" value="Character"/>
 			<property name="Subtype" value="thunderhoof, seraphim, dragon"/>
-			<property name="Threshold" value="o"/>
+			<property name="Threshold" value="O"/>
 			<property name="Cost" value="5"/>
 			<property name="Strength" value="1"/>
 			<property name="Life" value="4"/>
 			<property name="Speed" value="3"/>
 			<property name="Structure" value=""/>
-			<property name="Text" value="UNIQUE THUNDERHOOF
-When this card enters play, put X tokens on it, where X is the number of [O] you control.
-This card gains 1 strength for each token on it.
-DISRUPT
-COST: Pay 2. Remove a token from this card. Pick an opponent.
-EFFECT: That player discards a card."/>
+			<property name="Text" value="UNIQUE THUNDERHOOF&amp;#10;When this card enters play, put X tokens on it, where X is the number of [O] you control.&amp;#10;This card gains 1 strength for each token on it.&amp;#10;DISRUPT&amp;#10;COST: Pay 2. Remove a token from this card. Pick an opponent.&amp;#10;EFFECT: That player discards a card."/>
 		</card>
 		<card id="c9801386-03b5-4348-8706-f81fec9819bd" name="Geiseric, the Souleater">
-			<property name="Rarity" value="fixed"/>
-			<property name="Trade" value="arcanist"/>
-			<property name="Type" value="character"/>
+			<property name="Rarity" value="Fixed"/>
+			<property name="Trade" value="Arcanist"/>
+			<property name="Type" value="Character"/>
 			<property name="Subtype" value="geiseric, demon knight"/>
-			<property name="Threshold" value="ooo"/>
+			<property name="Threshold" value="OOO"/>
 			<property name="Cost" value="3"/>
 			<property name="Strength" value="3"/>
 			<property name="Life" value="2"/>
 			<property name="Speed" value="3"/>
 			<property name="Structure" value=""/>
-			<property name="Text" value="UNIQUE GEISERIC
-If a character would be put into an opponent's hand from play, you may pay 1. If you do, remove it from the game and put a token on this card instead.
-SOUL CONSUMPTION
-COST: Pay 2. Remove a token from this card.
-EFFECT: Look at the top 2 cards of your deck. Put 1 into your hand and 1 on the bottom of your deck."/>
+			<property name="Text" value="UNIQUE GEISERIC&amp;#10;If a character would be put into an opponent's hand from play, you may pay 1. If you do, remove it from the game and put a token on this card instead.&amp;#10;SOUL CONSUMPTION&amp;#10;COST: Pay 2. Remove a token from this card.&amp;#10;EFFECT: Look at the top 2 cards of your deck. Put 1 into your hand and 1 on the bottom of your deck."/>
 		</card>
 		<card id="30831c20-41d4-46db-a154-60682fe9319b" name="God's Autograph">
-			<property name="Rarity" value="fixed"/>
-			<property name="Trade" value="arcanist"/>
-			<property name="Type" value="item"/>
+			<property name="Rarity" value="Fixed"/>
+			<property name="Trade" value="Arcanist"/>
+			<property name="Type" value="Item"/>
 			<property name="Subtype" value=""/>
-			<property name="Threshold" value="oo"/>
+			<property name="Threshold" value="OO"/>
 			<property name="Cost" value="2"/>
 			<property name="Strength" value=""/>
 			<property name="Life" value=""/>
@@ -73,11 +55,11 @@ EFFECT: Look at the top 2 cards of your deck. Put 1 into your hand and 1 on the 
 			<property name="Text" value="All non-resource cards gain the rules text Unique X, where X is the card's name."/>
 		</card>
 		<card id="d1fc04ec-fef0-4031-8e4c-9ce7c1273015" name="Pony Slaystation">
-			<property name="Rarity" value="fixed"/>
-			<property name="Trade" value="arcanist"/>
-			<property name="Type" value="location"/>
+			<property name="Rarity" value="Fixed"/>
+			<property name="Trade" value="Arcanist"/>
+			<property name="Type" value="Location"/>
 			<property name="Subtype" value=""/>
-			<property name="Threshold" value="ooo"/>
+			<property name="Threshold" value="OOO"/>
 			<property name="Cost" value="3"/>
 			<property name="Strength" value=""/>
 			<property name="Life" value=""/>
@@ -86,27 +68,24 @@ EFFECT: Look at the top 2 cards of your deck. Put 1 into your hand and 1 on the 
 			<property name="Text" value="When a character with 3 strength or less enters play under an opponent's control, destroy that character and inflict X damage to this card, where X is that character's strength."/>
 		</card>
 		<card id="d23a3fbd-0bf3-4937-9b29-570c55a418b8" name="Spatchcocking">
-			<property name="Rarity" value="fixed"/>
-			<property name="Trade" value="arcanist"/>
-			<property name="Type" value="tactic"/>
+			<property name="Rarity" value="Fixed"/>
+			<property name="Trade" value="Arcanist"/>
+			<property name="Type" value="Tactic"/>
 			<property name="Subtype" value=""/>
-			<property name="Threshold" value="oooo"/>
+			<property name="Threshold" value="OOOO"/>
 			<property name="Cost" value="4"/>
 			<property name="Strength" value=""/>
 			<property name="Life" value=""/>
 			<property name="Speed" value=""/>
 			<property name="Structure" value=""/>
-			<property name="Text" value="Each player chooses a card of each non-resource type they control. Put all remaining non-resource cards into their owner's hand.
-RECUR: [O][O][O][O]
-COST: Use this only if this card is in your discard pile. Pay 4. Remove this card from the game.
-EFFECT: Each opponent reveals their hand, chooses a card of each non-resource type in it, and discards the remaining non-resource cards."/>
+			<property name="Text" value="Each player chooses a card of each non-resource type they control. Put all remaining non-resource cards into their owner's hand.&amp;#10;RECUR: [O][O][O][O]&amp;#10;COST: Use this only if this card is in your discard pile. Pay 4. Remove this card from the game.&amp;#10;EFFECT: Each opponent reveals their hand, chooses a card of each non-resource type in it, and discards the remaining non-resource cards."/>
 		</card>
 		<card id="91803a23-9aff-4665-87cf-ff3e40580ede" name="The Stone of Shame">
-			<property name="Rarity" value="fixed"/>
-			<property name="Trade" value="arcanist"/>
-			<property name="Type" value="item"/>
+			<property name="Rarity" value="Fixed"/>
+			<property name="Trade" value="Arcanist"/>
+			<property name="Type" value="Item"/>
 			<property name="Subtype" value=""/>
-			<property name="Threshold" value="ooo"/>
+			<property name="Threshold" value="OOO"/>
 			<property name="Cost" value="2"/>
 			<property name="Strength" value=""/>
 			<property name="Life" value=""/>
@@ -115,270 +94,230 @@ EFFECT: Each opponent reveals their hand, chooses a card of each non-resource ty
 			<property name="Text" value="If a character would be put into a player's hand, destroy it instead."/>
 		</card>
 		<card id="25fc8abf-08b6-4afb-bdbd-a7db7c29e1d9" name="Anatidaephobia">
-			<property name="Rarity" value="fixed"/>
-			<property name="Trade" value="banker"/>
-			<property name="Type" value="tactic"/>
+			<property name="Rarity" value="Fixed"/>
+			<property name="Trade" value="Banker"/>
+			<property name="Type" value="Tactic"/>
 			<property name="Subtype" value=""/>
-			<property name="Threshold" value="g"/>
+			<property name="Threshold" value="G"/>
 			<property name="Cost" value="0"/>
 			<property name="Strength" value=""/>
 			<property name="Life" value=""/>
 			<property name="Speed" value=""/>
 			<property name="Structure" value=""/>
-			<property name="Text" value="EXTRA COST: Deploy this only in response to a character being deployed. If you did not deploy this card using FLIP UP, pay X, where X is the character's numeric cost.
-Terminate the character.
-FLIP UP: 1 [G] and your faction loses 5 influence."/>
+			<property name="Text" value="EXTRA COST: Deploy this only in response to a character being deployed. If you did not deploy this card using FLIP UP, pay X, where X is the character's numeric cost.&amp;#10;Terminate the character.&amp;#10;FLIP UP: 1 [G] and your faction loses 5 influence."/>
 		</card>
 		<card id="a43be8c9-6c39-463a-a10a-6721510e84bb" name="Fecal Urgency">
-			<property name="Rarity" value="fixed"/>
-			<property name="Trade" value="banker"/>
-			<property name="Type" value="tactic"/>
+			<property name="Rarity" value="Fixed"/>
+			<property name="Trade" value="Banker"/>
+			<property name="Type" value="Tactic"/>
 			<property name="Subtype" value=""/>
-			<property name="Threshold" value="g"/>
+			<property name="Threshold" value="G"/>
 			<property name="Cost" value="3"/>
 			<property name="Strength" value=""/>
 			<property name="Life" value=""/>
 			<property name="Speed" value=""/>
 			<property name="Structure" value=""/>
-			<property name="Text" value="EXTRA COST: Choose a number for X that is less than or equal to the number of [G] you control.
-Draw X cards. Your faction loses X+X influence."/>
+			<property name="Text" value="EXTRA COST: Choose a number for X that is less than or equal to the number of [G] you control.&amp;#10;Draw X cards. Your faction loses X+X influence."/>
 		</card>
 		<card id="d5a76074-c837-4279-8f74-bef9e4878b92" name="Intriguing Mezzanine">
-			<property name="Rarity" value="fixed"/>
-			<property name="Trade" value="banker"/>
-			<property name="Type" value="location"/>
+			<property name="Rarity" value="Fixed"/>
+			<property name="Trade" value="Banker"/>
+			<property name="Type" value="Location"/>
 			<property name="Subtype" value=""/>
-			<property name="Threshold" value="gggg"/>
+			<property name="Threshold" value="GGGG"/>
 			<property name="Cost" value="5"/>
 			<property name="Strength" value=""/>
 			<property name="Life" value=""/>
 			<property name="Speed" value=""/>
 			<property name="Structure" value="2"/>
-			<property name="Text" value="EXTRA COST: Pick 2 characters.
-When this card enters play, deplete those characters.
-PARTY ON!
-COST: Inflict 1 damage to this location. If you do, pick a character.
-EFFECT: Deplete the character.
-Characters depleted by this card cannot be restored by their controller's factions's restore rule."/>
+			<property name="Text" value="EXTRA COST: Pick 2 characters.&amp;#10;When this card enters play, deplete those characters.&amp;#10;PARTY ON!&amp;#10;COST: Inflict 1 damage to this location. If you do, pick a character.&amp;#10;EFFECT: Deplete the character.&amp;#10;Characters depleted by this card cannot be restored by their controller's factions's restore rule."/>
 		</card>
 		<card id="e2f64e14-2f97-4905-8bb0-8bea33994928" name="Port Manteau">
-			<property name="Rarity" value="fixed"/>
-			<property name="Trade" value="banker"/>
-			<property name="Type" value="location"/>
+			<property name="Rarity" value="Fixed"/>
+			<property name="Trade" value="Banker"/>
+			<property name="Type" value="Location"/>
 			<property name="Subtype" value=""/>
-			<property name="Threshold" value="g"/>
+			<property name="Threshold" value="G"/>
 			<property name="Cost" value="2"/>
 			<property name="Strength" value=""/>
 			<property name="Life" value=""/>
 			<property name="Speed" value=""/>
 			<property name="Structure" value="3"/>
-			<property name="Text" value="When this card enters play, name a card subtype.
-Players must pay 2 to deploy cards with the named subtype."/>
+			<property name="Text" value="When this card enters play, name a card subtype.&amp;#10;Players must pay 2 to deploy cards with the named subtype."/>
 		</card>
 		<card id="4189d9eb-5a42-4fd6-bc2b-efd9e6f40ccb" name="Prestige Inversion">
-			<property name="Rarity" value="fixed"/>
-			<property name="Trade" value="banker"/>
-			<property name="Type" value="tactic"/>
+			<property name="Rarity" value="Fixed"/>
+			<property name="Trade" value="Banker"/>
+			<property name="Type" value="Tactic"/>
 			<property name="Subtype" value=""/>
-			<property name="Threshold" value="gg"/>
+			<property name="Threshold" value="GG"/>
 			<property name="Cost" value="1"/>
 			<property name="Strength" value=""/>
 			<property name="Life" value=""/>
 			<property name="Speed" value=""/>
 			<property name="Structure" value=""/>
-			<property name="Text" value="EXTRA COST: Pick a character with the UNIQUE keyword in its rules text.
-Remove the character from the game.
-RECUR: [G][G]
-COST: Use this only while this card is in your discard pile. Pay 1. Remove this card from the game.
-EFFECT: Draw a card."/>
+			<property name="Text" value="EXTRA COST: Pick a character with the UNIQUE keyword in its rules text.&amp;#10;Remove the character from the game.&amp;#10;RECUR: [G][G]&amp;#10;COST: Use this only while this card is in your discard pile. Pay 1. Remove this card from the game.&amp;#10;EFFECT: Draw a card."/>
 		</card>
 		<card id="3534079d-0983-4521-a905-589de7d4b9d8" name="Vilghame Manewaft">
-			<property name="Rarity" value="fixed"/>
-			<property name="Trade" value="banker"/>
-			<property name="Type" value="character"/>
+			<property name="Rarity" value="Fixed"/>
+			<property name="Trade" value="Banker"/>
+			<property name="Type" value="Character"/>
 			<property name="Subtype" value="vilghame, sword of great justice"/>
-			<property name="Threshold" value="ggg"/>
+			<property name="Threshold" value="GGG"/>
 			<property name="Cost" value="5"/>
 			<property name="Strength" value="5"/>
 			<property name="Life" value="3"/>
 			<property name="Speed" value="3"/>
 			<property name="Structure" value=""/>
-			<property name="Text" value="UNIQUE VILGHAME
-Your opponents must pay 1 to deploy a tactic.
-The first resource each opponent plays each turn enters play attached to that player's faction."/>
+			<property name="Text" value="UNIQUE VILGHAME&amp;#10;Your opponents must pay 1 to deploy a tactic.&amp;#10;The first resource each opponent plays each turn enters play attached to that player's faction."/>
 		</card>
 		<card id="9bc47884-f956-41d4-8a57-e6c3e377b8d9" name="94r913 My 908570pp3r5">
-			<property name="Rarity" value="fixed"/>
-			<property name="Trade" value="gearsmith"/>
-			<property name="Type" value="tactic"/>
+			<property name="Rarity" value="Fixed"/>
+			<property name="Trade" value="Gearsmith"/>
+			<property name="Type" value="Tactic"/>
 			<property name="Subtype" value=""/>
-			<property name="Threshold" value="e"/>
+			<property name="Threshold" value="E"/>
 			<property name="Cost" value="3"/>
 			<property name="Strength" value=""/>
 			<property name="Life" value=""/>
 			<property name="Speed" value=""/>
 			<property name="Structure" value=""/>
-			<property name="Text" value="EXTRA COST: If you deployed this card using FLIP UP X is 4, otherwise X is 2. Pick X or fewer characters.
-This turn, the characters must attack if they can. Draw a card.
-FLIP UP: 2 [E]"/>
+			<property name="Text" value="EXTRA COST: If you deployed this card using FLIP UP X is 4, otherwise X is 2. Pick X or fewer characters.&amp;#10;This turn, the characters must attack if they can. Draw a card.&amp;#10;FLIP UP: 2 [E]"/>
 		</card>
 		<card id="39c7dc51-bbf8-4d1c-aca7-40ebbb7bd2b7" name="Ensmallment Ray">
-			<property name="Rarity" value="fixed"/>
-			<property name="Trade" value="gearsmith"/>
-			<property name="Type" value="item"/>
+			<property name="Rarity" value="Fixed"/>
+			<property name="Trade" value="Gearsmith"/>
+			<property name="Type" value="Item"/>
 			<property name="Subtype" value=""/>
-			<property name="Threshold" value="eee"/>
+			<property name="Threshold" value="EEE"/>
 			<property name="Cost" value="4"/>
 			<property name="Strength" value=""/>
 			<property name="Life" value=""/>
 			<property name="Speed" value=""/>
 			<property name="Structure" value=""/>
-			<property name="Text" value="When this card enters play, draw a card.
-Reduce the numeric cost of characters you play by 2, to a minimum of 1.
-All your characters lose 1 strength and 1 life."/>
+			<property name="Text" value="When this card enters play, draw a card.&amp;#10;Reduce the numeric cost of characters you play by 2, to a minimum of 1.&amp;#10;All your characters lose 1 strength and 1 life."/>
 		</card>
 		<card id="febadb33-11cf-4dec-815b-5e86d03488f0" name="Hilarious Refrigerator Alarm">
-			<property name="Rarity" value="fixed"/>
-			<property name="Trade" value="gearsmith"/>
-			<property name="Type" value="tactic"/>
+			<property name="Rarity" value="Fixed"/>
+			<property name="Trade" value="Gearsmith"/>
+			<property name="Type" value="Tactic"/>
 			<property name="Subtype" value=""/>
-			<property name="Threshold" value="ee"/>
+			<property name="Threshold" value="EE"/>
 			<property name="Cost" value="2"/>
 			<property name="Strength" value=""/>
 			<property name="Life" value=""/>
 			<property name="Speed" value=""/>
 			<property name="Structure" value=""/>
-			<property name="Text" value="All other unresolved cards are terminated.
-If an opponent deployed at least 2 cards with the same name this turn, put up to 2 Micromajig tokens into play under your control. Otherwise, each opponent may put 3 Micromajig tokens into play under their control.
-FLIP UP: 2 [E][E] and you may play a resource."/>
+			<property name="Text" value="All other unresolved cards are terminated.&amp;#10;If an opponent deployed at least 2 cards with the same name this turn, put up to 2 Micromajig tokens into play under your control. Otherwise, each opponent may put 3 Micromajig tokens into play under their control.&amp;#10;FLIP UP: 2 [E][E] and you may play a resource."/>
 		</card>
 		<card id="4172616c-2e3a-480e-b178-1f85e72d8f9e" name="Merbegon, the Insatiable Taxidermist">
-			<property name="Rarity" value="fixed"/>
-			<property name="Trade" value="gearsmith"/>
-			<property name="Type" value="character"/>
+			<property name="Rarity" value="Fixed"/>
+			<property name="Trade" value="Gearsmith"/>
+			<property name="Type" value="Character"/>
 			<property name="Subtype" value="merbegon, demon knight"/>
-			<property name="Threshold" value="eeee"/>
+			<property name="Threshold" value="EEEE"/>
 			<property name="Cost" value="5"/>
 			<property name="Strength" value="5"/>
 			<property name="Life" value="5"/>
 			<property name="Speed" value="3"/>
 			<property name="Structure" value=""/>
-			<property name="Text" value="UNIQUE MERBEGON
-This card can attack even if it has not been in play under your control since the start of the turn.
-When a character enters play under your control, you may destroy that character. If you do, X is that character's strength and Y is that character's life. You may pick a character. If you do, it gains X strength and Y life this turn."/>
+			<property name="Text" value="UNIQUE MERBEGON&amp;#10;This card can attack even if it has not been in play under your control since the start of the turn.&amp;#10;When a character enters play under your control, you may destroy that character. If you do, X is that character's strength and Y is that character's life. You may pick a character. If you do, it gains X strength and Y life this turn."/>
 		</card>
 		<card id="4e50b7ed-2a4e-4bd7-aac3-fbc97b2574c7" name="Notion Sickness">
-			<property name="Rarity" value="fixed"/>
-			<property name="Trade" value="gearsmith"/>
-			<property name="Type" value="tactic"/>
+			<property name="Rarity" value="Fixed"/>
+			<property name="Trade" value="Gearsmith"/>
+			<property name="Type" value="Tactic"/>
 			<property name="Subtype" value=""/>
-			<property name="Threshold" value="ee"/>
+			<property name="Threshold" value="EE"/>
 			<property name="Cost" value="3"/>
 			<property name="Strength" value=""/>
 			<property name="Life" value=""/>
 			<property name="Speed" value=""/>
 			<property name="Structure" value=""/>
-			<property name="Text" value="EXTRA COST: Pick a card you control with an ability in its rules text.
-You may use one of the card's abilities. If you do, the effect happens twice instead of once. Destroy the card."/>
+			<property name="Text" value="EXTRA COST: Pick a card you control with an ability in its rules text.&amp;#10;You may use one of the card's abilities. If you do, the effect happens twice instead of once. Destroy the card."/>
 		</card>
 		<card id="b57044fc-e7a2-409d-bbf2-2dbe4e93519e" name="Axeclaw Grandchest">
-			<property name="Rarity" value="fixed"/>
-			<property name="Trade" value="rogue"/>
-			<property name="Type" value="character"/>
+			<property name="Rarity" value="Fixed"/>
+			<property name="Trade" value="Rogue"/>
+			<property name="Type" value="Character"/>
 			<property name="Subtype" value="grandchest, seraphim, dragon"/>
-			<property name="Threshold" value="ddd"/>
+			<property name="Threshold" value="DDD"/>
 			<property name="Cost" value="4"/>
 			<property name="Strength" value="0"/>
 			<property name="Life" value="4"/>
 			<property name="Speed" value="4"/>
 			<property name="Structure" value=""/>
-			<property name="Text" value="UNIQUE GRANDCHEST
-The top card of your deck is revealed at all times.
-While the top card of your deck is revealed, this card gains X strength, where X is the numeric cost of that card.
-SHAKE UP
-COST: Pay 2.
-EFFECT: Shuffle your deck."/>
+			<property name="Text" value="UNIQUE GRANDCHEST&amp;#10;The top card of your deck is revealed at all times.&amp;#10;While the top card of your deck is revealed, this card gains X strength, where X is the numeric cost of that card.&amp;#10;SHAKE UP&amp;#10;COST: Pay 2.&amp;#10;EFFECT: Shuffle your deck."/>
 		</card>
 		<card id="fe7095e0-d918-420c-9303-fbc5054d2564" name="Community Chest">
-			<property name="Rarity" value="fixed"/>
-			<property name="Trade" value="rogue"/>
-			<property name="Type" value="item"/>
+			<property name="Rarity" value="Fixed"/>
+			<property name="Trade" value="Rogue"/>
+			<property name="Type" value="Item"/>
 			<property name="Subtype" value=""/>
-			<property name="Threshold" value="d"/>
+			<property name="Threshold" value="D"/>
 			<property name="Cost" value="2"/>
 			<property name="Strength" value=""/>
 			<property name="Life" value=""/>
 			<property name="Speed" value=""/>
 			<property name="Structure" value=""/>
-			<property name="Text" value="UNIQUE COMMUNITY CHEST
-At the start of each player's turn, each player may draw a card or play a resource.
-If you control at least [D] and choose to put this card on the bottom of your deck as part of your mulligan at the start of a game, you may reveal it. If you do, draw a card at the start of your turn."/>
+			<property name="Text" value="UNIQUE COMMUNITY CHEST&amp;#10;At the start of each player's turn, each player may draw a card or play a resource.&amp;#10;If you control at least [D] and choose to put this card on the bottom of your deck as part of your mulligan at the start of a game, you may reveal it. If you do, draw a card at the start of your turn."/>
 		</card>
 		<card id="6affffa0-13f7-4085-adb4-2b8ea1a0a2fa" name="Delicious Strawberry Flavored Death">
-			<property name="Rarity" value="fixed"/>
-			<property name="Trade" value="rogue"/>
-			<property name="Type" value="tactic"/>
+			<property name="Rarity" value="Fixed"/>
+			<property name="Trade" value="Rogue"/>
+			<property name="Type" value="Tactic"/>
 			<property name="Subtype" value=""/>
-			<property name="Threshold" value="d"/>
+			<property name="Threshold" value="D"/>
 			<property name="Cost" value="5"/>
 			<property name="Strength" value=""/>
 			<property name="Life" value=""/>
 			<property name="Speed" value=""/>
 			<property name="Structure" value=""/>
-			<property name="Text" value="Deplete all non-Rogue characters. Draw a card.
-FLIP UP: 1 [D] and your faction loses 5 influence."/>
+			<property name="Text" value="Deplete all non-Rogue characters. Draw a card.&amp;#10;FLIP UP: 1 [D] and your faction loses 5 influence."/>
 		</card>
 		<card id="27c3d541-82fc-4bfc-b184-14dcfe4858fa" name="Fornicaves">
-			<property name="Rarity" value="fixed"/>
-			<property name="Trade" value="rogue"/>
-			<property name="Type" value="location"/>
+			<property name="Rarity" value="Fixed"/>
+			<property name="Trade" value="Rogue"/>
+			<property name="Type" value="Location"/>
 			<property name="Subtype" value=""/>
-			<property name="Threshold" value="dd"/>
+			<property name="Threshold" value="DD"/>
 			<property name="Cost" value="3"/>
 			<property name="Strength" value=""/>
 			<property name="Life" value=""/>
 			<property name="Speed" value=""/>
 			<property name="Structure" value="1"/>
-			<property name="Text" value="UNIQUE FORNICAVES
-All characters lose X life, where X is their printed life minus 2."/>
+			<property name="Text" value="UNIQUE FORNICAVES&amp;#10;All characters lose X life, where X is their printed life minus 2."/>
 		</card>
 		<card id="eb80e2c7-ee2b-4699-b621-85b3576453e1" name="Iohane, the Convex">
-			<property name="Rarity" value="fixed"/>
-			<property name="Trade" value="rogue"/>
-			<property name="Type" value="character"/>
+			<property name="Rarity" value="Fixed"/>
+			<property name="Trade" value="Rogue"/>
+			<property name="Type" value="Character"/>
 			<property name="Subtype" value="iohane, sword of great justice"/>
-			<property name="Threshold" value="ddd"/>
+			<property name="Threshold" value="DDD"/>
 			<property name="Cost" value="1"/>
 			<property name="Strength" value="2"/>
 			<property name="Life" value="2"/>
 			<property name="Speed" value="4"/>
 			<property name="Structure" value=""/>
-			<property name="Text" value="TACTICAL, UNIQUE IOHANE
-At the start of your turn, flip a coin. If you win, draw a card.
-SNEAK
-COST: Pay 1.
-EFFECT: This card gains COVERT this turn."/>
+			<property name="Text" value="TACTICAL, UNIQUE IOHANE&amp;#10;At the start of your turn, flip a coin. If you win, draw a card.&amp;#10;SNEAK&amp;#10;COST: Pay 1.&amp;#10;EFFECT: This card gains COVERT this turn."/>
 		</card>
 		<card id="3b6e1bd0-98bb-423e-adcd-eda67697c487" name="Ipsighast, the Lustful">
-			<property name="Rarity" value="fixed"/>
-			<property name="Trade" value="rogue"/>
-			<property name="Type" value="character"/>
+			<property name="Rarity" value="Fixed"/>
+			<property name="Trade" value="Rogue"/>
+			<property name="Type" value="Character"/>
 			<property name="Subtype" value="ipsighast, demon knight"/>
-			<property name="Threshold" value="ddd"/>
+			<property name="Threshold" value="DDD"/>
 			<property name="Cost" value="3"/>
 			<property name="Strength" value="3"/>
 			<property name="Life" value="3"/>
 			<property name="Speed" value="4"/>
 			<property name="Structure" value=""/>
-			<property name="Text" value="UNIQUE IPSIGHAST
-EXHUMATION
-COST: Pay 3. Pick a character in an opponent's discard pile.
-EFFECT: Remove that character from the game. This turn, this card gains COVERT. You may put the top 3 cards of that opponent's deck into their discard pile."/>
+			<property name="Text" value="UNIQUE IPSIGHAST&amp;#10;EXHUMATION&amp;#10;COST: Pay 3. Pick a character in an opponent's discard pile.&amp;#10;EFFECT: Remove that character from the game. This turn, this card gains COVERT. You may put the top 3 cards of that opponent's deck into their discard pile."/>
 		</card>
 		<card id="b91d33d1-aeed-4953-b57b-463204b25bc6" name="Unscrupuls of Victory">
-			<property name="Rarity" value="fixed"/>
-			<property name="Trade" value="universal"/>
-			<property name="Type" value="tactic"/>
+			<property name="Rarity" value="Fixed"/>
+			<property name="Trade" value="Universal"/>
+			<property name="Type" value="Tactic"/>
 			<property name="Subtype" value=""/>
 			<property name="Threshold" value=""/>
 			<property name="Cost" value="2"/>
@@ -389,58 +328,50 @@ EFFECT: Remove that character from the game. This turn, this card gains COVERT. 
 			<property name="Text" value="If you control at least [O][O], an opponent discards 1 card. If you control at least [G][G], draw 1 card. If you control at least [E][E], put 1 Micromajig token into play under your control. If you control at least [D][D], search an opponent's deck for 1 card and put it into their discard pile. If you control at least [R][R], you may pick a character. If you do, inflict 2 damage to it."/>
 		</card>
 		<card id="0b67c755-4053-4bfb-9aef-e3a990501e0d" name="Giada, the Elegant">
-			<property name="Rarity" value="fixed"/>
-			<property name="Trade" value="warlord"/>
-			<property name="Type" value="character"/>
+			<property name="Rarity" value="Fixed"/>
+			<property name="Trade" value="Warlord"/>
+			<property name="Type" value="Character"/>
 			<property name="Subtype" value="giada, sword of great justice"/>
-			<property name="Threshold" value="rrr"/>
+			<property name="Threshold" value="RRR"/>
 			<property name="Cost" value="4"/>
 			<property name="Strength" value="3"/>
 			<property name="Life" value="3"/>
 			<property name="Speed" value="3"/>
 			<property name="Structure" value=""/>
-			<property name="Text" value="UNIQUE GIADA
-This card loses 1 strength and 1 life for each token on it.
-If this card would be destroyed by an opposing card or effect, you may put a token on it instead. If you do, deplete it and remove it from battle. Reduce the amount of damage already inflicted to this character to 0."/>
+			<property name="Text" value="UNIQUE GIADA&amp;#10;This card loses 1 strength and 1 life for each token on it.&amp;#10;If this card would be destroyed by an opposing card or effect, you may put a token on it instead. If you do, deplete it and remove it from battle. Reduce the amount of damage already inflicted to this character to 0."/>
 		</card>
 		<card id="60ce2f1b-bb70-4195-a6db-e0caa629ce2a" name="Octo-Ba-Ba, the Devourer">
-			<property name="Rarity" value="fixed"/>
-			<property name="Trade" value="warlord"/>
-			<property name="Type" value="character"/>
+			<property name="Rarity" value="Fixed"/>
+			<property name="Trade" value="Warlord"/>
+			<property name="Type" value="Character"/>
 			<property name="Subtype" value="octo-ba-ba, sword of great justice"/>
-			<property name="Threshold" value="rrr"/>
+			<property name="Threshold" value="RRR"/>
 			<property name="Cost" value="5"/>
 			<property name="Strength" value="3"/>
 			<property name="Life" value="6"/>
 			<property name="Speed" value="3"/>
 			<property name="Structure" value=""/>
-			<property name="Text" value="UNIQUE OCTO-BA-BA
-When a character an opponent controls is destroyed, put a token on this card.
-DEVOUR
-COST: Pay 3. Deplete this card. Remove a token from this card. Pick a character or location.
-EFFECT: Inflict 3 damage to the character or location."/>
+			<property name="Text" value="UNIQUE OCTO-BA-BA&amp;#10;When a character an opponent controls is destroyed, put a token on this card.&amp;#10;DEVOUR&amp;#10;COST: Pay 3. Deplete this card. Remove a token from this card. Pick a character or location.&amp;#10;EFFECT: Inflict 3 damage to the character or location."/>
 		</card>
 		<card id="452bed36-af64-4986-905b-6074fd01437b" name="Shieldmane Grandchest">
-			<property name="Rarity" value="fixed"/>
-			<property name="Trade" value="warlord"/>
-			<property name="Type" value="character"/>
+			<property name="Rarity" value="Fixed"/>
+			<property name="Trade" value="Warlord"/>
+			<property name="Type" value="Character"/>
 			<property name="Subtype" value="grandchest, seraphim, dragon"/>
-			<property name="Threshold" value="r"/>
+			<property name="Threshold" value="R"/>
 			<property name="Cost" value="8"/>
 			<property name="Strength" value="6"/>
 			<property name="Life" value="6"/>
 			<property name="Speed" value="3"/>
 			<property name="Structure" value=""/>
-			<property name="Text" value="UNIQUE GRANDCHEST
-When battle damage is inflicted to a character you control, reduce the amount by 2.
-When battle damage is inflicted to a character an opponent controls, increase the amount by 2."/>
+			<property name="Text" value="UNIQUE GRANDCHEST&amp;#10;When battle damage is inflicted to a character you control, reduce the amount by 2.&amp;#10;When battle damage is inflicted to a character an opponent controls, increase the amount by 2."/>
 		</card>
 		<card id="8866ccbf-a8dc-4c2f-8dbc-4d879b5b10cf" name="The Great Wall of Keeping Stuff Out">
-			<property name="Rarity" value="fixed"/>
-			<property name="Trade" value="warlord"/>
-			<property name="Type" value="location"/>
+			<property name="Rarity" value="Fixed"/>
+			<property name="Trade" value="Warlord"/>
+			<property name="Type" value="Location"/>
 			<property name="Subtype" value=""/>
-			<property name="Threshold" value="rrrr"/>
+			<property name="Threshold" value="RRRR"/>
 			<property name="Cost" value="5"/>
 			<property name="Strength" value=""/>
 			<property name="Life" value=""/>
@@ -449,11 +380,11 @@ When battle damage is inflicted to a character an opponent controls, increase th
 			<property name="Text" value="When a player deploys a tactic, terminate it and inflict 1 damage to this card."/>
 		</card>
 		<card id="dc1f0f31-d593-4619-8af1-9a66cd544e5c" name="The Stone of Triumph">
-			<property name="Rarity" value="fixed"/>
-			<property name="Trade" value="warlord"/>
-			<property name="Type" value="item"/>
+			<property name="Rarity" value="Fixed"/>
+			<property name="Trade" value="Warlord"/>
+			<property name="Type" value="Item"/>
 			<property name="Subtype" value=""/>
-			<property name="Threshold" value="r"/>
+			<property name="Threshold" value="R"/>
 			<property name="Cost" value="3"/>
 			<property name="Strength" value=""/>
 			<property name="Life" value=""/>
@@ -462,9 +393,9 @@ When battle damage is inflicted to a character an opponent controls, increase th
 			<property name="Text" value="When a character you control is destroyed, you may pay 1. If you do, search your deck for a card with the same name, reveal it, and put it on top of your deck."/>
 		</card>
 		<card id="d7810225-59f7-453f-9e51-7ea4e0fbbebc" name="Obsession">
-			<property name="Rarity" value="common"/>
-			<property name="Trade" value="arcanist"/>
-			<property name="Type" value="resource"/>
+			<property name="Rarity" value="Common"/>
+			<property name="Trade" value="Arcanist"/>
+			<property name="Type" value="Resource"/>
 			<property name="Subtype" value=""/>
 			<property name="Threshold" value=""/>
 			<property name="Cost" value=""/>
@@ -475,9 +406,9 @@ When battle damage is inflicted to a character an opponent controls, increase th
 			<property name="Text" value=""/>
 		</card>
 		<card id="e702970e-ee43-4186-ab29-73811b5a5879" name="Greed">
-			<property name="Rarity" value="common"/>
-			<property name="Trade" value="banker"/>
-			<property name="Type" value="resource"/>
+			<property name="Rarity" value="Common"/>
+			<property name="Trade" value="Banker"/>
+			<property name="Type" value="Resource"/>
 			<property name="Subtype" value=""/>
 			<property name="Threshold" value=""/>
 			<property name="Cost" value=""/>
@@ -488,9 +419,9 @@ When battle damage is inflicted to a character an opponent controls, increase th
 			<property name="Text" value=""/>
 		</card>
 		<card id="ec41f683-5791-4858-a4bc-cae7b4be98fe" name="Elitism">
-			<property name="Rarity" value="common"/>
-			<property name="Trade" value="gearsmith"/>
-			<property name="Type" value="resource"/>
+			<property name="Rarity" value="Common"/>
+			<property name="Trade" value="Gearsmith"/>
+			<property name="Type" value="Resource"/>
 			<property name="Subtype" value=""/>
 			<property name="Threshold" value=""/>
 			<property name="Cost" value=""/>
@@ -501,9 +432,9 @@ When battle damage is inflicted to a character an opponent controls, increase th
 			<property name="Text" value=""/>
 		</card>
 		<card id="03d360f6-31b1-4bdd-bee7-9ff669dfbb17" name="Deception">
-			<property name="Rarity" value="common"/>
-			<property name="Trade" value="rogue"/>
-			<property name="Type" value="resource"/>
+			<property name="Rarity" value="Common"/>
+			<property name="Trade" value="Rogue"/>
+			<property name="Type" value="Resource"/>
 			<property name="Subtype" value=""/>
 			<property name="Threshold" value=""/>
 			<property name="Cost" value=""/>
@@ -514,9 +445,9 @@ When battle damage is inflicted to a character an opponent controls, increase th
 			<property name="Text" value=""/>
 		</card>
 		<card id="a8c219b9-9d83-4015-aa1b-38c741c67a7a" name="Rage">
-			<property name="Rarity" value="common"/>
-			<property name="Trade" value="warlord"/>
-			<property name="Type" value="resource"/>
+			<property name="Rarity" value="Common"/>
+			<property name="Trade" value="Warlord"/>
+			<property name="Type" value="Resource"/>
 			<property name="Subtype" value=""/>
 			<property name="Threshold" value=""/>
 			<property name="Cost" value=""/>
@@ -529,7 +460,7 @@ When battle damage is inflicted to a character an opponent controls, increase th
 		<card id="9dc309f4-d43f-4515-841e-ed982ce026e7" name="The Evil Alliance">
 			<property name="Rarity" value=""/>
 			<property name="Trade" value=""/>
-			<property name="Type" value="faction"/>
+			<property name="Type" value="Faction"/>
 			<property name="Subtype" value=""/>
 			<property name="Threshold" value=""/>
 			<property name="Cost" value=""/>
@@ -542,7 +473,7 @@ When battle damage is inflicted to a character an opponent controls, increase th
 		<card id="ce1ccf05-7a09-4363-b3b2-67d3d28b1973" name="The Society of Magical Propriety">
 			<property name="Rarity" value=""/>
 			<property name="Trade" value=""/>
-			<property name="Type" value="faction"/>
+			<property name="Type" value="Faction"/>
 			<property name="Subtype" value=""/>
 			<property name="Threshold" value=""/>
 			<property name="Cost" value=""/>
@@ -555,7 +486,7 @@ When battle damage is inflicted to a character an opponent controls, increase th
 		<card id="c58d0e3c-4f76-4665-aca4-2ba01a42d863" name="The Knitting Coalition">
 			<property name="Rarity" value=""/>
 			<property name="Trade" value=""/>
-			<property name="Type" value="faction"/>
+			<property name="Type" value="Faction"/>
 			<property name="Subtype" value=""/>
 			<property name="Threshold" value=""/>
 			<property name="Cost" value=""/>
@@ -568,7 +499,7 @@ When battle damage is inflicted to a character an opponent controls, increase th
 		<card id="ebef8b79-0dcb-401f-81e9-eafd9235fd7d" name="The Open R&amp;D Faction">
 			<property name="Rarity" value=""/>
 			<property name="Trade" value=""/>
-			<property name="Type" value="faction"/>
+			<property name="Type" value="Faction"/>
 			<property name="Subtype" value=""/>
 			<property name="Threshold" value=""/>
 			<property name="Cost" value=""/>
@@ -581,7 +512,7 @@ When battle damage is inflicted to a character an opponent controls, increase th
 		<card id="71038369-24cc-48d9-a58c-e658edc01944" name="The Union of Unextraordinary Miners">
 			<property name="Rarity" value=""/>
 			<property name="Trade" value=""/>
-			<property name="Type" value="faction"/>
+			<property name="Type" value="Faction"/>
 			<property name="Subtype" value=""/>
 			<property name="Threshold" value=""/>
 			<property name="Cost" value=""/>
@@ -594,7 +525,7 @@ When battle damage is inflicted to a character an opponent controls, increase th
 		<card id="2ce14e80-b0c6-4a3a-999b-c240b4fff9d5" name="Imperial Army">
 			<property name="Rarity" value=""/>
 			<property name="Trade" value=""/>
-			<property name="Type" value="faction"/>
+			<property name="Type" value="Faction"/>
 			<property name="Subtype" value=""/>
 			<property name="Threshold" value=""/>
 			<property name="Cost" value=""/>
@@ -607,7 +538,7 @@ When battle damage is inflicted to a character an opponent controls, increase th
 		<card id="78571459-b948-4558-823e-e463e5fc5526" name="Counter-Imperial Army">
 			<property name="Rarity" value=""/>
 			<property name="Trade" value=""/>
-			<property name="Type" value="faction"/>
+			<property name="Type" value="Faction"/>
 			<property name="Subtype" value=""/>
 			<property name="Threshold" value=""/>
 			<property name="Cost" value=""/>
@@ -620,7 +551,7 @@ When battle damage is inflicted to a character an opponent controls, increase th
 		<card id="089a2d63-c9b9-4ad7-8c51-1d0d79a0dfbb" name="Slightly Less Evil Alliance">
 			<property name="Rarity" value=""/>
 			<property name="Trade" value=""/>
-			<property name="Type" value="faction"/>
+			<property name="Type" value="Faction"/>
 			<property name="Subtype" value=""/>
 			<property name="Threshold" value=""/>
 			<property name="Cost" value=""/>
