@@ -3,8 +3,8 @@
 <game
 	id="b9cd80f4-2af0-11e6-b67b-9e71128cae77" 
 	version="1.0.0.0" octgnVersion="3.1.17.100" scriptVersion="3.1.0.1"
-	name="The Spoils (Spoils Toolbox fork)" tags="spoils" markersize="16"
-	description="Download card images here: https://www.spoilstoolbox.com/octgn"
+	name="The Spoils (Toolbox fork)" tags="spoils ccg" markersize="16"
+	description="The Spoils CCG (Toolbox fork)&#xD;Download card images here: https://www.spoilstoolbox.com"
 	setsurl="https://www.spoilstoolbox.com/octgn"
 	gameurl="http://thespoilscardgame.com/"
 	iconurl="http://theworldsnotes.com/images/Spoils_logo_trans.png"
