@@ -2864,7 +2864,7 @@
 		</card>
 		<card id="c6ea7e77-6ac0-4baa-9ba2-866726230426" name="The Tournament Faction">
 			<property name="Rarity" value=""/>
-			<property name="Trade" value=""/>
+			<property name="Trade" value="Universal"/>
 			<property name="Type" value="Faction"/>
 			<property name="Subtype" value=""/>
 			<property name="Threshold" value=""/>

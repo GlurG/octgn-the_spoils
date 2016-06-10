@@ -4554,7 +4554,7 @@
 		</card>
 		<card id="96da4806-dca7-487f-b07e-2dbfa06df2d9" name="The Tournament Faction">
 			<property name="Rarity" value=""/>
-			<property name="Trade" value=""/>
+			<property name="Trade" value="Universal"/>
 			<property name="Type" value="Faction"/>
 			<property name="Subtype" value=""/>
 			<property name="Threshold" value=""/>
@@ -4567,7 +4567,7 @@
 		</card>
 		<card id="aa757749-49bf-46f0-a6ca-1cb12ddd47ac" name="Moist Cave of the Darkpump">
 			<property name="Rarity" value=""/>
-			<property name="Trade" value=""/>
+			<property name="Trade" value="Universal"/>
 			<property name="Type" value="Faction"/>
 			<property name="Subtype" value=""/>
 			<property name="Threshold" value=""/>
@@ -4580,7 +4580,7 @@
 		</card>
 		<card id="d04aa14e-518a-4773-9492-7bd45444cc62" name="Order of the Golden String">
 			<property name="Rarity" value=""/>
-			<property name="Trade" value=""/>
+			<property name="Trade" value="Universal"/>
 			<property name="Type" value="Faction"/>
 			<property name="Subtype" value=""/>
 			<property name="Threshold" value=""/>
@@ -4593,7 +4593,7 @@
 		</card>
 		<card id="d9b1f68c-fd39-49fe-9991-e5052e54be5b" name="Alliance of Handy Weirdos">
 			<property name="Rarity" value=""/>
-			<property name="Trade" value=""/>
+			<property name="Trade" value="Universal"/>
 			<property name="Type" value="Faction"/>
 			<property name="Subtype" value=""/>
 			<property name="Threshold" value=""/>
@@ -4606,7 +4606,7 @@
 		</card>
 		<card id="a896049a-e01d-4cd6-a9e6-aa04bcf6534c" name="Drowned Catacombs">
 			<property name="Rarity" value=""/>
-			<property name="Trade" value=""/>
+			<property name="Trade" value="Universal"/>
 			<property name="Type" value="Faction"/>
 			<property name="Subtype" value=""/>
 			<property name="Threshold" value=""/>
@@ -4619,7 +4619,7 @@
 		</card>
 		<card id="4f6d9ed9-0a48-4ca7-b32f-f995b87b7213" name="Hall of Great Justice">
 			<property name="Rarity" value=""/>
-			<property name="Trade" value=""/>
+			<property name="Trade" value="Universal"/>
 			<property name="Type" value="Faction"/>
 			<property name="Subtype" value=""/>
 			<property name="Threshold" value=""/>
@@ -4632,7 +4632,7 @@
 		</card>
 		<card id="127ff677-bc48-408c-bd7e-0772aac3e0f7" name="Defenders of Marduun">
 			<property name="Rarity" value=""/>
-			<property name="Trade" value=""/>
+			<property name="Trade" value="Universal"/>
 			<property name="Type" value="Faction"/>
 			<property name="Subtype" value=""/>
 			<property name="Threshold" value=""/>
@@ -4645,7 +4645,7 @@
 		</card>
 		<card id="d1e103cf-9aed-466c-abdf-f856469e5ffa" name="Legions of Chaos">
 			<property name="Rarity" value=""/>
-			<property name="Trade" value=""/>
+			<property name="Trade" value="Universal"/>
 			<property name="Type" value="Faction"/>
 			<property name="Subtype" value=""/>
 			<property name="Threshold" value=""/>

@@ -2864,7 +2864,7 @@
 		</card>
 		<card id="619a34ba-4618-4f3f-acec-b757dd12d83b" name="The Tournament Faction">
 			<property name="Rarity" value=""/>
-			<property name="Trade" value=""/>
+			<property name="Trade" value="Universal"/>
 			<property name="Type" value="Faction"/>
 			<property name="Subtype" value=""/>
 			<property name="Threshold" value=""/>
@@ -2877,7 +2877,7 @@
 		</card>
 		<card id="531708e9-3e7d-4027-92f9-e48fb15b60b4" name="Moist Cave of the Darkpump">
 			<property name="Rarity" value=""/>
-			<property name="Trade" value=""/>
+			<property name="Trade" value="Universal"/>
 			<property name="Type" value="Faction"/>
 			<property name="Subtype" value=""/>
 			<property name="Threshold" value=""/>
@@ -2890,7 +2890,7 @@
 		</card>
 		<card id="ab1299d1-ad28-478d-b28e-10763f63d464" name="Order of the Golden String">
 			<property name="Rarity" value=""/>
-			<property name="Trade" value=""/>
+			<property name="Trade" value="Universal"/>
 			<property name="Type" value="Faction"/>
 			<property name="Subtype" value=""/>
 			<property name="Threshold" value=""/>
@@ -2903,7 +2903,7 @@
 		</card>
 		<card id="0cca365d-3cc2-4b48-9f41-ab663ea0b25a" name="Alliance of Handy Weirdos">
 			<property name="Rarity" value=""/>
-			<property name="Trade" value=""/>
+			<property name="Trade" value="Universal"/>
 			<property name="Type" value="Faction"/>
 			<property name="Subtype" value=""/>
 			<property name="Threshold" value=""/>
@@ -2916,7 +2916,7 @@
 		</card>
 		<card id="9d0ed925-fc2d-4745-82c0-68f90bf5d576" name="Drowned Catacombs">
 			<property name="Rarity" value=""/>
-			<property name="Trade" value=""/>
+			<property name="Trade" value="Universal"/>
 			<property name="Type" value="Faction"/>
 			<property name="Subtype" value=""/>
 			<property name="Threshold" value=""/>
@@ -2929,7 +2929,7 @@
 		</card>
 		<card id="0e3786c7-c515-4958-8b04-e6b1fb5ee388" name="Hall of Great Justice">
 			<property name="Rarity" value=""/>
-			<property name="Trade" value=""/>
+			<property name="Trade" value="Universal"/>
 			<property name="Type" value="Faction"/>
 			<property name="Subtype" value=""/>
 			<property name="Threshold" value=""/>
