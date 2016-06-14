@@ -393,7 +393,7 @@
 			<property name="Text" value="When a character you control is destroyed, you may pay 1. If you do, search your deck for a card with the same name, reveal it, and put it on top of your deck."/>
 		</card>
 		<card id="d7810225-59f7-453f-9e51-7ea4e0fbbebc" name="Obsession">
-			<property name="Rarity" value="Common"/>
+			<property name="Rarity" value=""/>
 			<property name="Trade" value="Arcanist"/>
 			<property name="Type" value="Resource"/>
 			<property name="Subtype" value=""/>
@@ -406,7 +406,7 @@
 			<property name="Text" value=""/>
 		</card>
 		<card id="e702970e-ee43-4186-ab29-73811b5a5879" name="Greed">
-			<property name="Rarity" value="Common"/>
+			<property name="Rarity" value=""/>
 			<property name="Trade" value="Banker"/>
 			<property name="Type" value="Resource"/>
 			<property name="Subtype" value=""/>
@@ -419,7 +419,7 @@
 			<property name="Text" value=""/>
 		</card>
 		<card id="ec41f683-5791-4858-a4bc-cae7b4be98fe" name="Elitism">
-			<property name="Rarity" value="Common"/>
+			<property name="Rarity" value=""/>
 			<property name="Trade" value="Gearsmith"/>
 			<property name="Type" value="Resource"/>
 			<property name="Subtype" value=""/>
@@ -432,7 +432,7 @@
 			<property name="Text" value=""/>
 		</card>
 		<card id="03d360f6-31b1-4bdd-bee7-9ff669dfbb17" name="Deception">
-			<property name="Rarity" value="Common"/>
+			<property name="Rarity" value=""/>
 			<property name="Trade" value="Rogue"/>
 			<property name="Type" value="Resource"/>
 			<property name="Subtype" value=""/>
@@ -445,7 +445,7 @@
 			<property name="Text" value=""/>
 		</card>
 		<card id="a8c219b9-9d83-4015-aa1b-38c741c67a7a" name="Rage">
-			<property name="Rarity" value="Common"/>
+			<property name="Rarity" value=""/>
 			<property name="Trade" value="Warlord"/>
 			<property name="Type" value="Resource"/>
 			<property name="Subtype" value=""/>

@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 
 <set gameId="b9cd80f4-2af0-11e6-b67b-9e71128cae77" gameVersion="1.3.1" id="74be93a3-2f0f-44cc-9162-fbd6e5b42ef5" name="Holy Heist" version="1.0">
+	<packaging>
+		<pack id="aee638c9-b44a-3bc1-a45d-59b88c3a72df" name="Booster">
+			<pick key="Rarity" qty="7" value="Common"/>
+			<pick key="Rarity" qty="4" value="Uncommon"/>
+			<pick key="Rarity" qty="2" value="Rare"/>
+		</pack>
+	</packaging>
 	<cards>
 		<card id="a64326fe-e6a2-4398-ad70-88e4584fb7af" name="Additional Tribute">
 			<property name="Rarity" value="Common"/>
@@ -1875,7 +1882,7 @@
 			<property name="Text" value=""/>
 		</card>
 		<card id="698dad90-2af1-4eaf-89b1-de5232b7234c" name="Obsession">
-			<property name="Rarity" value="Common"/>
+			<property name="Rarity" value=""/>
 			<property name="Trade" value="Arcanist"/>
 			<property name="Type" value="Resource"/>
 			<property name="Subtype" value=""/>
@@ -1888,7 +1895,7 @@
 			<property name="Text" value=""/>
 		</card>
 		<card id="4ebb7f34-156f-42e4-9f28-8ad5301914d3" name="Obsession">
-			<property name="Rarity" value="Common"/>
+			<property name="Rarity" value=""/>
 			<property name="Trade" value="Arcanist"/>
 			<property name="Type" value="Resource"/>
 			<property name="Subtype" value=""/>
@@ -1901,7 +1908,7 @@
 			<property name="Text" value=""/>
 		</card>
 		<card id="4c29d885-8d5a-4f4e-9790-4c65bc6a473f" name="Obsession">
-			<property name="Rarity" value="Common"/>
+			<property name="Rarity" value=""/>
 			<property name="Trade" value="Arcanist"/>
 			<property name="Type" value="Resource"/>
 			<property name="Subtype" value=""/>
@@ -1914,7 +1921,7 @@
 			<property name="Text" value=""/>
 		</card>
 		<card id="3fb92c4b-512f-4266-9149-7b9766a1b702" name="Greed">
-			<property name="Rarity" value="Common"/>
+			<property name="Rarity" value=""/>
 			<property name="Trade" value="Banker"/>
 			<property name="Type" value="Resource"/>
 			<property name="Subtype" value=""/>
@@ -1927,7 +1934,7 @@
 			<property name="Text" value=""/>
 		</card>
 		<card id="977a7b00-56fb-44eb-afec-d4226e3dd1a5" name="Greed">
-			<property name="Rarity" value="Common"/>
+			<property name="Rarity" value=""/>
 			<property name="Trade" value="Banker"/>
 			<property name="Type" value="Resource"/>
 			<property name="Subtype" value=""/>
@@ -1940,7 +1947,7 @@
 			<property name="Text" value=""/>
 		</card>
 		<card id="6bb4e504-e8c9-4043-afa4-616f8afd4da4" name="Greed">
-			<property name="Rarity" value="Common"/>
+			<property name="Rarity" value=""/>
 			<property name="Trade" value="Banker"/>
 			<property name="Type" value="Resource"/>
 			<property name="Subtype" value=""/>
@@ -1953,7 +1960,7 @@
 			<property name="Text" value=""/>
 		</card>
 		<card id="1f8eb79e-1a18-485c-8888-ea2dae8db3b6" name="Elitism">
-			<property name="Rarity" value="Common"/>
+			<property name="Rarity" value=""/>
 			<property name="Trade" value="Gearsmith"/>
 			<property name="Type" value="Resource"/>
 			<property name="Subtype" value=""/>
@@ -1966,7 +1973,7 @@
 			<property name="Text" value=""/>
 		</card>
 		<card id="0e9f838c-4973-42f6-9fe7-a9975f58e504" name="Elitism">
-			<property name="Rarity" value="Common"/>
+			<property name="Rarity" value=""/>
 			<property name="Trade" value="Gearsmith"/>
 			<property name="Type" value="Resource"/>
 			<property name="Subtype" value=""/>
@@ -1979,7 +1986,7 @@
 			<property name="Text" value=""/>
 		</card>
 		<card id="ec90493c-f0ed-41c7-ac7f-5bb1c09f7a81" name="Elitism">
-			<property name="Rarity" value="Common"/>
+			<property name="Rarity" value=""/>
 			<property name="Trade" value="Gearsmith"/>
 			<property name="Type" value="Resource"/>
 			<property name="Subtype" value=""/>
@@ -1992,7 +1999,7 @@
 			<property name="Text" value=""/>
 		</card>
 		<card id="2d2e52f6-9aee-45e2-9e89-703ebdd3b413" name="Deception">
-			<property name="Rarity" value="Common"/>
+			<property name="Rarity" value=""/>
 			<property name="Trade" value="Rogue"/>
 			<property name="Type" value="Resource"/>
 			<property name="Subtype" value=""/>
@@ -2005,7 +2012,7 @@
 			<property name="Text" value=""/>
 		</card>
 		<card id="c1102831-2b01-4018-9d48-0b096e466653" name="Deception">
-			<property name="Rarity" value="Common"/>
+			<property name="Rarity" value=""/>
 			<property name="Trade" value="Rogue"/>
 			<property name="Type" value="Resource"/>
 			<property name="Subtype" value=""/>
@@ -2018,7 +2025,7 @@
 			<property name="Text" value=""/>
 		</card>
 		<card id="a38ef747-c5ad-4997-b6b4-e54b725e8eec" name="Deception">
-			<property name="Rarity" value="Common"/>
+			<property name="Rarity" value=""/>
 			<property name="Trade" value="Rogue"/>
 			<property name="Type" value="Resource"/>
 			<property name="Subtype" value=""/>
@@ -2031,7 +2038,7 @@
 			<property name="Text" value=""/>
 		</card>
 		<card id="753a5db7-d8c3-4c16-9faf-bc2bea0ebafc" name="Rage">
-			<property name="Rarity" value="Common"/>
+			<property name="Rarity" value=""/>
 			<property name="Trade" value="Warlord"/>
 			<property name="Type" value="Resource"/>
 			<property name="Subtype" value=""/>
@@ -2044,7 +2051,7 @@
 			<property name="Text" value=""/>
 		</card>
 		<card id="f182863a-4cc8-4328-8f76-c6f1e1be90c9" name="Rage">
-			<property name="Rarity" value="Common"/>
+			<property name="Rarity" value=""/>
 			<property name="Trade" value="Warlord"/>
 			<property name="Type" value="Resource"/>
 			<property name="Subtype" value=""/>
@@ -2057,7 +2064,7 @@
 			<property name="Text" value=""/>
 		</card>
 		<card id="f5d41ee5-d445-473e-9a48-e05828f0d805" name="Rage">
-			<property name="Rarity" value="Common"/>
+			<property name="Rarity" value=""/>
 			<property name="Trade" value="Warlord"/>
 			<property name="Type" value="Resource"/>
 			<property name="Subtype" value=""/>

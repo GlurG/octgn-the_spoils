@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 
 <set gameId="b9cd80f4-2af0-11e6-b67b-9e71128cae77" gameVersion="1.3.1" id="abf7b04c-55cd-4f21-b02b-dc403a04c128" name="Seed" version="1.0">
+	<packaging>
+		<pack id="f53746fc-3444-3dd3-833a-ba2cf3859618" name="Booster">
+			<pick key="Rarity" qty="9" value="Common"/>
+			<pick key="Rarity" qty="3" value="Uncommon"/>
+			<pick key="Rarity" qty="1" value="Rare"/>
+		</pack>
+	</packaging>
 	<cards>
 		<card id="63157c9a-b261-47c9-8894-7b9c94b9b383" name="Anathematize">
 			<property name="Rarity" value="Common"/>
@@ -2941,7 +2948,7 @@
 			<property name="Text" value=""/>
 		</card>
 		<card id="be2adbc2-409e-4e46-81d7-0c6f584fe47b" name="Obsession">
-			<property name="Rarity" value="Common"/>
+			<property name="Rarity" value=""/>
 			<property name="Trade" value="Arcanist"/>
 			<property name="Type" value="Resource"/>
 			<property name="Subtype" value=""/>
@@ -2954,7 +2961,7 @@
 			<property name="Text" value=""/>
 		</card>
 		<card id="c29a23ae-62dd-40e2-af10-6b7100176cea" name="Greed">
-			<property name="Rarity" value="Common"/>
+			<property name="Rarity" value=""/>
 			<property name="Trade" value="Banker"/>
 			<property name="Type" value="Resource"/>
 			<property name="Subtype" value=""/>
@@ -2967,7 +2974,7 @@
 			<property name="Text" value=""/>
 		</card>
 		<card id="9cdbdc0b-d836-4ac4-be5a-be51f5492b35" name="Elitism">
-			<property name="Rarity" value="Common"/>
+			<property name="Rarity" value=""/>
 			<property name="Trade" value="Gearsmith"/>
 			<property name="Type" value="Resource"/>
 			<property name="Subtype" value=""/>
@@ -2980,7 +2987,7 @@
 			<property name="Text" value=""/>
 		</card>
 		<card id="e48d3db3-81d9-44a9-a1c9-ef84b309d765" name="Deception">
-			<property name="Rarity" value="Common"/>
+			<property name="Rarity" value=""/>
 			<property name="Trade" value="Rogue"/>
 			<property name="Type" value="Resource"/>
 			<property name="Subtype" value=""/>
@@ -2993,7 +3000,7 @@
 			<property name="Text" value=""/>
 		</card>
 		<card id="50e67f93-a2a4-47e8-a865-8c4032d587e1" name="Rage">
-			<property name="Rarity" value="Common"/>
+			<property name="Rarity" value=""/>
 			<property name="Trade" value="Warlord"/>
 			<property name="Type" value="Resource"/>
 			<property name="Subtype" value=""/>
