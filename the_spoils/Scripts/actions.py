@@ -26,9 +26,9 @@ AttackColor = "#ff0000"
 NSOTColor = "#ff8800"
 BlockColor = "#0000ff"
 
-token_marker = ("Token", "7e9610d4-c06d-437d-a5e6-100000000001")
-locdmg_marker = ("Location Damage", "7e9610d4-c06d-437d-a5e6-100000000002")
-dont_restore_marker = ("Don't Restore", "7e9610d4-c06d-437d-a5e6-100000000007")
+token_marker = ("Token", "a7609635-ca0d-48f9-a0eb-aa97ba55f171")
+locdmg_marker = ("Location Damage", "05f1569f-8d70-4b0f-825d-9e927858e1b0")
+dont_restore_marker = ("Don't Restore", "a759673f-e09f-43fb-bda5-b1155b757aa6")
 
 STD_MICROMAJIG_GUID = "60e8c57d-7aca-47ca-8f9c-501f2c924ead"
 

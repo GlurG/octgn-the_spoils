@@ -1,6 +1,7 @@
 changelog = {
 	"1.0.0.2": [
 		"Fixed creation of Micromajig tokens.",
+		"Fixed so proper markers are used instead of the default ones.",
 		"Added 'Factions and Resources' pack containing all factions and resources for Limited Games."
 	],
 	"1.0.0.1": [
