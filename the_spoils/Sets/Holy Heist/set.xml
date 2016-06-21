@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 
-<set gameId="844d5fe3-bdb5-4ad2-ba83-88c2c2db6d88" gameVersion="1.3.1" id="74be93a3-2f0f-44cc-9162-fbd6e5b42ef5" name="Holy Heist" version="1.0">
+<set gameId="b9cd80f4-2af0-11e6-b67b-9e71128cae77" gameVersion="1.3.1" id="74be93a3-2f0f-44cc-9162-fbd6e5b42ef5" name="Holy Heist" version="1.0">
 	<packaging>
 		<pack id="aee638c9-b44a-3bc1-a45d-59b88c3a72df" name="Booster">
 			<pick key="Rarity" qty="7" value="Common"/>
@@ -2077,7 +2077,7 @@
 			<property name="Text" value=""/>
 		</card>
 		<card id="60e8c57d-7aca-47ca-8f9c-501f2c924ead" name="Micromajig">
-			<property name="Rarity" value=""/>
+			<property name="Rarity" value="Token"/>
 			<property name="Trade" value="Gearsmith"/>
 			<property name="Type" value="Character"/>
 			<property name="Subtype" value="majig"/>
@@ -2090,7 +2090,7 @@
 			<property name="Text" value=""/>
 		</card>
 		<card id="5236666d-2501-4a39-a589-65411db5b9b4" name="Micromajig">
-			<property name="Rarity" value=""/>
+			<property name="Rarity" value="Token"/>
 			<property name="Trade" value="Gearsmith"/>
 			<property name="Type" value="Character"/>
 			<property name="Subtype" value="majig"/>
@@ -2103,7 +2103,7 @@
 			<property name="Text" value=""/>
 		</card>
 		<card id="bda66736-27d7-485d-ad43-9f2e59c0728a" name="Micromajig">
-			<property name="Rarity" value=""/>
+			<property name="Rarity" value="Token"/>
 			<property name="Trade" value="Gearsmith"/>
 			<property name="Type" value="Character"/>
 			<property name="Subtype" value="majig"/>
@@ -2116,7 +2116,7 @@
 			<property name="Text" value=""/>
 		</card>
 		<card id="19dd7e78-ae75-4dc8-8e3b-ca23319af6ad" name="Micromajig">
-			<property name="Rarity" value=""/>
+			<property name="Rarity" value="Token"/>
 			<property name="Trade" value="Gearsmith"/>
 			<property name="Type" value="Character"/>
 			<property name="Subtype" value="majig"/>
@@ -2129,7 +2129,7 @@
 			<property name="Text" value=""/>
 		</card>
 		<card id="b2a14305-5ac6-4b72-bc54-5195ba611a30" name="Micromajig">
-			<property name="Rarity" value=""/>
+			<property name="Rarity" value="Token"/>
 			<property name="Trade" value="Gearsmith"/>
 			<property name="Type" value="Character"/>
 			<property name="Subtype" value="majig"/>
@@ -2142,7 +2142,7 @@
 			<property name="Text" value=""/>
 		</card>
 		<card id="b7e98afc-099c-43e5-b6a4-1c4a50ecfc0f" name="Micromajig">
-			<property name="Rarity" value=""/>
+			<property name="Rarity" value="Token"/>
 			<property name="Trade" value="Gearsmith"/>
 			<property name="Type" value="Character"/>
 			<property name="Subtype" value="majig"/>

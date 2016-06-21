@@ -30,7 +30,7 @@ token_marker = ("Token", "7e9610d4-c06d-437d-a5e6-100000000001")
 locdmg_marker = ("Location Damage", "7e9610d4-c06d-437d-a5e6-100000000002")
 dont_restore_marker = ("Don't Restore", "7e9610d4-c06d-437d-a5e6-100000000007")
 
-STD_MICROMAJIG_GUID = "7e9610d4-c06d-437d-a5e6-000000000028"
+STD_MICROMAJIG_GUID = "60e8c57d-7aca-47ca-8f9c-501f2c924ead"
 
 CURRENT_LAYOUT_VERSION = "0.9"
 DEFAULT_LAYOUT= "[['tok','chr','itm'],['res','fac','loc'],['oog']]"
@@ -182,7 +182,7 @@ def micromajig(group, x = 0, y = 0):
 	reposition_cards(me)
 
 def micromajig_menu(group, x = 0, y = 0):
-	card, quantity = askCard({"Card Number": "Token"}, "and")
+	card, quantity = askCard({"Rarity": "Token"}, title = "Create Micromajigs")
 	if quantity == 0: return
 	table.create(card, x, y, quantity)
 	reposition_cards(me)

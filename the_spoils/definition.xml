@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <game
-	id="844d5fe3-bdb5-4ad2-ba83-88c2c2db6d88" 
-	version="2.0.0.0" octgnVersion="3.1.17.100" scriptVersion="3.1.0.1"
-	name="The Spoils" tags="spoils ccg" markersize="16"
+	id="b9cd80f4-2af0-11e6-b67b-9e71128cae77" 
+	version="1.0.0.2" octgnVersion="3.1.17.100" scriptVersion="3.1.0.1"
+	name="The Spoils (Toolbox fork)" tags="spoils ccg" markersize="16"
 	description="The Spoils CCG&#xD;Download card images here: https://www.spoilstoolbox.com"
 	setsurl="https://www.spoilstoolbox.com/octgn"
 	gameurl="http://thespoilscardgame.com/"

@@ -1,6 +1,9 @@
 changelog = {
-	"2.0.0.0": [
-		"IMPORTANT: Your Spoils decks created with the previous version will have to be converted in order to work. To convert them, visit https://www.spoilstoolbox.com/deck-builder. Furthermore, any image packs you have installed will have to be downloaded again from https://www.spoilstoolbox.com.",
-		"Packaging information added to each set to enable Limited Games.",
+	"1.0.0.2": [
+		"Fixed creation of Micromajig tokens.",
+		"Added 'Factions and Resources' pack containing all factions and resources for Limited Games."
+	],
+	"1.0.0.1": [
+		"Packaging information added to each set to enable Limited Games."
 	]
 }
