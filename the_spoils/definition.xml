@@ -2,7 +2,7 @@
 
 <game
 	id="b9cd80f4-2af0-11e6-b67b-9e71128cae77" 
-	version="1.0.0.2" octgnVersion="3.1.17.100" scriptVersion="3.1.0.1"
+	version="1.0.0.3" octgnVersion="3.1.17.100" scriptVersion="3.1.0.1"
 	name="The Spoils (Toolbox fork)" tags="spoils ccg" markersize="16"
 	description="The Spoils CCG&#xD;Download card images here: https://www.spoilstoolbox.com"
 	setsurl="https://www.spoilstoolbox.com/octgn"
@@ -94,8 +94,8 @@
 		<groupaction menu="Clear targets and combat" shortcut="Esc" execute="clearAll" />
 		<groupaction menu="No" shortcut="F1" execute="answer_no" />
 		<groupaction menu="Yes" shortcut="F2" execute="answer_yes" />
-		<groupaction menu="Create single Micromajig" shortcut="alt+M" execute="micromajig" />
-		<groupaction menu="Create Micromajig" shortcut="ctrl+M" execute="micromajig_menu" />
+		<groupaction menu="Create Single Micromajig" shortcut="alt+M" execute="micromajig" />
+		<groupaction menu="Create Token Character..." shortcut="ctrl+M" execute="token_character_menu" />
 		<groupaction menu="Roll 20-sided Die" shortcut="ctrl+shift+R" execute="roll20" />
 		<groupaction menu="Roll 6-sided Die" shortcut="ctrl+R" execute="roll6" />
 		<groupaction menu="Flip a Coin" shortcut="ctrl+F" execute="flipCoin" />

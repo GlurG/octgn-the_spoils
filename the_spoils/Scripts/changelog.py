@@ -1,4 +1,9 @@
 changelog = {
+	"1.0.0.3": [
+		"Added 'Decade of Deckadence' set.",
+		"'Unwise Encirclement' is now correctly tagged as a tactic (instead of a character).",
+		"Added ultra rare cards printed in 'Seed Saga'."
+	],
 	"1.0.0.2": [
 		"Fixed creation of Micromajig tokens.",
 		"Fixed so proper markers are used instead of the default ones.",

@@ -2012,7 +2012,7 @@
 		<card id="4a2644f2-727c-4db8-b3dc-800a0efc82a2" name="Unwise Encirclement">
 			<property name="Rarity" value="Uncommon"/>
 			<property name="Trade" value="Warlord"/>
-			<property name="Type" value="Character"/>
+			<property name="Type" value="Tactic"/>
 			<property name="Subtype" value=""/>
 			<property name="Threshold" value="RR"/>
 			<property name="Cost" value="1"/>

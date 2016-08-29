@@ -181,8 +181,8 @@ def micromajig(group, x = 0, y = 0):
 	table.create(STD_MICROMAJIG_GUID, x, y)
 	reposition_cards(me)
 
-def micromajig_menu(group, x = 0, y = 0):
-	card, quantity = askCard({"Rarity": "Token"}, title = "Create Micromajigs")
+def token_character_menu(group, x = 0, y = 0):
+	card, quantity = askCard({"Rarity": "Token"}, title = "Create Token Character")
 	if quantity == 0: return
 	table.create(card, x, y, quantity)
 	reposition_cards(me)

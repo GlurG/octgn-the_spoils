@@ -4663,5 +4663,135 @@
 			<property name="Structure" value=""/>
 			<property name="Text" value=""/>
 		</card>
+		<card id="8f4b6c15-a518-4606-aec8-8b208bbe0b60" name="3p1c D00dm4k3r">
+			<property name="Rarity" value="Ultra-rare"/>
+			<property name="Trade" value="Gearsmith"/>
+			<property name="Type" value="Item"/>
+			<property name="Subtype" value="gear"/>
+			<property name="Threshold" value="E"/>
+			<property name="Cost" value="4"/>
+			<property name="Strength" value=""/>
+			<property name="Life" value=""/>
+			<property name="Speed" value=""/>
+			<property name="Structure" value=""/>
+			<property name="Text" value="ATTACH TO CHARACTER&amp;#10;The attached character gains 1 strength and 1 life for each [E] you control."/>
+		</card>
+		<card id="3c6a5f26-71c5-414a-97a6-95404031c02e" name="Aroused Stiffbone">
+			<property name="Rarity" value="Ultra-rare"/>
+			<property name="Trade" value="Warlord"/>
+			<property name="Type" value="Character"/>
+			<property name="Subtype" value="dragon"/>
+			<property name="Threshold" value="R"/>
+			<property name="Cost" value="0"/>
+			<property name="Strength" value="4"/>
+			<property name="Life" value="4"/>
+			<property name="Speed" value="3"/>
+			<property name="Structure" value=""/>
+			<property name="Text" value="EXTRA COST: Pay X, where X is 7 minus the number of [R] you control."/>
+		</card>
+		<card id="c178c3b8-1311-4820-83d7-aa5d61f3929e" name="Boilstorm">
+			<property name="Rarity" value="Ultra-rare"/>
+			<property name="Trade" value="Warlord"/>
+			<property name="Type" value="Tactic"/>
+			<property name="Subtype" value=""/>
+			<property name="Threshold" value="R"/>
+			<property name="Cost" value="5"/>
+			<property name="Strength" value=""/>
+			<property name="Life" value=""/>
+			<property name="Speed" value=""/>
+			<property name="Structure" value=""/>
+			<property name="Text" value="EXTRA COST: Pick 3 or fewer characters.&amp;#10;Inflict X damage divided however you want to the characters, where X is the number of [R] you control."/>
+		</card>
+		<card id="c089e544-4083-44ac-a050-49daac10a1d7" name="Desolate">
+			<property name="Rarity" value="Ultra-rare"/>
+			<property name="Trade" value="Arcanist"/>
+			<property name="Type" value="Tactic"/>
+			<property name="Subtype" value=""/>
+			<property name="Threshold" value="O"/>
+			<property name="Cost" value="3"/>
+			<property name="Strength" value=""/>
+			<property name="Life" value=""/>
+			<property name="Speed" value=""/>
+			<property name="Structure" value=""/>
+			<property name="Text" value="EXTRA COST: Pick a number for X, where X is less than or equal to the number of [O] you control.&amp;#10;Destroy all characters with X strength."/>
+		</card>
+		<card id="34249a2e-519d-4a8b-acb5-14ea7eddb5ef" name="Fired Hand">
+			<property name="Rarity" value="Ultra-rare"/>
+			<property name="Trade" value="Rogue"/>
+			<property name="Type" value="Character"/>
+			<property name="Subtype" value="miner"/>
+			<property name="Threshold" value="D"/>
+			<property name="Cost" value="6"/>
+			<property name="Strength" value="5"/>
+			<property name="Life" value="4"/>
+			<property name="Speed" value="3"/>
+			<property name="Structure" value=""/>
+			<property name="Text" value="If this card would be destroyed, flip it face-down under its owner's control instead.&amp;#10;PETTY VENGEANCE&amp;#10;COST: Use this only while this card is a face-down resource. Reveal this card. Pay 1. Discard a card. Pick a character.&amp;#10;EFFECT: This turn, the character loses 1 life."/>
+		</card>
+		<card id="ae42de69-c3e5-4154-8e1d-2ee5765a3457" name="Miraculous Regeneration">
+			<property name="Rarity" value="Ultra-rare"/>
+			<property name="Trade" value="Banker"/>
+			<property name="Type" value="Tactic"/>
+			<property name="Subtype" value=""/>
+			<property name="Threshold" value="G"/>
+			<property name="Cost" value="3"/>
+			<property name="Strength" value=""/>
+			<property name="Life" value=""/>
+			<property name="Speed" value=""/>
+			<property name="Structure" value=""/>
+			<property name="Text" value="EXTRA COST: Pick 2 characters in your discard pile.&amp;#10;Put 1 of the characters into play under your control as a face-down resource. Put the other character into your hand."/>
+		</card>
+		<card id="779ca0a7-5f1d-46bc-8b75-910369b34bac" name="Mutineer's Hiatus">
+			<property name="Rarity" value="Ultra-rare"/>
+			<property name="Trade" value="Banker"/>
+			<property name="Type" value="Tactic"/>
+			<property name="Subtype" value=""/>
+			<property name="Threshold" value="G"/>
+			<property name="Cost" value="1"/>
+			<property name="Strength" value=""/>
+			<property name="Life" value=""/>
+			<property name="Speed" value=""/>
+			<property name="Structure" value=""/>
+			<property name="Text" value="EXTRA COST: Destroy a character you own.&amp;#10;Draw 2 cards.&amp;#10;RECUR: [G]&amp;#10;COST: Use this only if this card is in your discard pile. Pay 2. Remove this card from the game. Pick a character you own.&amp;#10;EFFECT: Destroy the character. Draw a card."/>
+		</card>
+		<card id="f9b8064f-63a2-4953-ac45-8fbdbc6f19fa" name="Mysterious Invasion">
+			<property name="Rarity" value="Ultra-rare"/>
+			<property name="Trade" value="Gearsmith"/>
+			<property name="Type" value="Item"/>
+			<property name="Subtype" value=""/>
+			<property name="Threshold" value="E"/>
+			<property name="Cost" value="1"/>
+			<property name="Strength" value=""/>
+			<property name="Life" value=""/>
+			<property name="Speed" value=""/>
+			<property name="Structure" value=""/>
+			<property name="Text" value="OVERWHELM&amp;#10;COST: Deplete this card. Destroy 2 characters you control. Pick a character.&amp;#10;EFFECT: Destroy the character."/>
+		</card>
+		<card id="c0355ce1-968c-41e4-a1ec-674c546ea4bf" name="Peculate">
+			<property name="Rarity" value="Ultra-rare"/>
+			<property name="Trade" value="Rogue"/>
+			<property name="Type" value="Tactic"/>
+			<property name="Subtype" value=""/>
+			<property name="Threshold" value="DDD"/>
+			<property name="Cost" value="0"/>
+			<property name="Strength" value=""/>
+			<property name="Life" value=""/>
+			<property name="Speed" value=""/>
+			<property name="Structure" value=""/>
+			<property name="Text" value="EXTRA COST: Pick a character, item, or location in an opponent's discard pile. Pay X, where X is its numeric cost.&amp;#10;Put the card into play under your control."/>
+		</card>
+		<card id="96812153-1e78-47b3-bfcf-fcacd69a19af" name="Witty Worm">
+			<property name="Rarity" value="Ultra-rare"/>
+			<property name="Trade" value="Arcanist"/>
+			<property name="Type" value="Character"/>
+			<property name="Subtype" value="monstrosity"/>
+			<property name="Threshold" value="OO"/>
+			<property name="Cost" value="4"/>
+			<property name="Strength" value="2"/>
+			<property name="Life" value="2"/>
+			<property name="Speed" value="3"/>
+			<property name="Structure" value=""/>
+			<property name="Text" value="While this card is in your hand you may reveal this card as you are playing a resource. If you do, you may deploy this card for 1.&amp;#10;When this card enters play, you may put a resource you control into its owner's hand. If you do, you may play a resource."/>
+		</card>
 	</cards>
 </set>
