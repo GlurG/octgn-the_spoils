@@ -1,6 +1,173 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 
 <set gameId="b9cd80f4-2af0-11e6-b67b-9e71128cae77" gameVersion="1.3.1" id="2f974bd9-d5f7-4f3b-a7c1-6ccb7f2e8786" name="Decade of Deckadence" version="1.0">
+	<packaging>
+		<pack id="4ba06ab2-29b6-38df-a8f0-edde721c3168" name="Box">
+			<pick key="name" qty="1" value="Alistar Wixthorough"/>
+			<pick key="name" qty="1" value="Brainbath"/>
+			<pick key="name" qty="1" value="Chirophobia"/>
+			<pick key="name" qty="1" value="Desolate"/>
+			<pick key="name" qty="1" value="Devilfang Thunderhoof"/>
+			<pick key="name" qty="1" value="Forbidden Ritual"/>
+			<pick key="name" qty="1" value="Gatekeeper of the Void"/>
+			<pick key="name" qty="1" value="Grasp of Rantzigore"/>
+			<pick key="name" qty="1" value="Inadequate Wand"/>
+			<pick key="name" qty="1" value="Insidious Brainworm"/>
+			<pick key="name" qty="1" value="Intellectual Reliquary"/>
+			<pick key="name" qty="1" value="Mindrender"/>
+			<pick key="name" qty="1" value="Monstrous Lassitude"/>
+			<pick key="name" qty="1" value="Obsessive Compulsion"/>
+			<pick key="name" qty="1" value="Profane Proposal"/>
+			<pick key="name" qty="1" value="Rantzigite Inquisitor"/>
+			<pick key="name" qty="1" value="Rantzigore's Blade"/>
+			<pick key="name" qty="1" value="Redonkulous"/>
+			<pick key="name" qty="1" value="Ritual of the Double Monkey"/>
+			<pick key="name" qty="1" value="Scepter of the Chosen"/>
+			<pick key="name" qty="1" value="Silent Succubus"/>
+			<pick key="name" qty="1" value="Temple of Rantzigore"/>
+			<pick key="name" qty="1" value="Thabbashite Desert Creature"/>
+			<pick key="name" qty="1" value="Uhluhtc Unleashed"/>
+			<pick key="name" qty="1" value="Upstart Arcanist"/>
+			<pick key="name" qty="1" value="Violating Ritual"/>
+			<pick key="name" qty="1" value="Witty Worm"/>
+			<pick key="name" qty="1" value="Alluring Quicksand"/>
+			<pick key="name" qty="1" value="Ancestral Coffers"/>
+			<pick key="name" qty="1" value="Arya, Princess of Mauville"/>
+			<pick key="name" qty="1" value="Bank Rolled"/>
+			<pick key="name" qty="1" value="Caracal Morphnus"/>
+			<pick key="name" qty="1" value="Carnal Cravings"/>
+			<pick key="name" qty="1" value="Erotic Assassin"/>
+			<pick key="name" qty="1" value="Fallen Necromorph"/>
+			<pick key="name" qty="1" value="Gargoyle of Cathedrale de Mau"/>
+			<pick key="name" qty="1" value="Gilded Yurt"/>
+			<pick key="name" qty="1" value="Mass Subjugation"/>
+			<pick key="name" qty="1" value="Mauville"/>
+			<pick key="name" qty="1" value="Montgomery Blatherscythe"/>
+			<pick key="name" qty="1" value="Mr. Green Thumb"/>
+			<pick key="name" qty="1" value="Mutineer's Hiatus"/>
+			<pick key="name" qty="1" value="Neverending Mirage"/>
+			<pick key="name" qty="1" value="Nine Rituals of the Mau"/>
+			<pick key="name" qty="1" value="Padamose Cultists"/>
+			<pick key="name" qty="1" value="Peaceful Mau"/>
+			<pick key="name" qty="1" value="Property Condemner"/>
+			<pick key="name" qty="1" value="Resurrecting Necromorph"/>
+			<pick key="name" qty="1" value="Shaman of the Fallen"/>
+			<pick key="name" qty="1" value="Siluriformes Incarnate"/>
+			<pick key="name" qty="1" value="Successful IPO"/>
+			<pick key="name" qty="1" value="The Ministry of Other Smaller Ministries"/>
+			<pick key="name" qty="1" value="Witchclock Necromancy"/>
+			<pick key="name" qty="1" value="Wrath of the Mau"/>
+			<pick key="name" qty="1" value="3p1c D00dm4k3r"/>
+			<pick key="name" qty="1" value="1337!"/>
+			<pick key="name" qty="1" value="700160x 31f"/>
+			<pick key="name" qty="1" value="Brain Dump"/>
+			<pick key="name" qty="1" value="Cantankerous Claywork"/>
+			<pick key="name" qty="1" value="Contriving Engineer"/>
+			<pick key="name" qty="1" value="Elite Team Registration"/>
+			<pick key="name" qty="1" value="Ex Machina Majig"/>
+			<pick key="name" qty="1" value="Faulty Upgrade"/>
+			<pick key="name" qty="1" value="Fiery Doom Device"/>
+			<pick key="name" qty="1" value="Finger Explosive"/>
+			<pick key="name" qty="1" value="G14n7 5p0rk D3f3n53"/>
+			<pick key="name" qty="1" value="H07 P3pp3r"/>
+			<pick key="name" qty="1" value="Luteoderm Prototype"/>
+			<pick key="name" qty="1" value="Luteorunic Behemoth"/>
+			<pick key="name" qty="1" value="Micromajig Master"/>
+			<pick key="name" qty="1" value="Micromajig Overlord"/>
+			<pick key="name" qty="1" value="Micromajig Party"/>
+			<pick key="name" qty="1" value="Pogo Bomb"/>
+			<pick key="name" qty="1" value="Research Assistant"/>
+			<pick key="name" qty="1" value="Scrapyard"/>
+			<pick key="name" qty="1" value="Senior Research Assistant"/>
+			<pick key="name" qty="1" value="Sixsmith's Disciple"/>
+			<pick key="name" qty="1" value="Testudine, World Ender"/>
+			<pick key="name" qty="1" value="Unleash the Majigs"/>
+			<pick key="name" qty="1" value="William B. Sixsmith III"/>
+			<pick key="name" qty="1" value="Wired Up"/>
+			<pick key="name" qty="1" value="Adriel, Sarcophyle King"/>
+			<pick key="name" qty="1" value="Arathea, the Undying"/>
+			<pick key="name" qty="1" value="Ashara, Gideon's Twin"/>
+			<pick key="name" qty="1" value="Black Market Broker"/>
+			<pick key="name" qty="1" value="Cashier's Window"/>
+			<pick key="name" qty="1" value="Copulating Sarcophyle"/>
+			<pick key="name" qty="1" value="Drygulch"/>
+			<pick key="name" qty="1" value="Engorged Sarcophyle"/>
+			<pick key="name" qty="1" value="Enlightened Sarcophyle"/>
+			<pick key="name" qty="1" value="Escape Artist"/>
+			<pick key="name" qty="1" value="Flight Instinct"/>
+			<pick key="name" qty="1" value="Gardyloo!"/>
+			<pick key="name" qty="1" value="Illusionist's Trick"/>
+			<pick key="name" qty="1" value="Iohane the Convex"/>
+			<pick key="name" qty="1" value="Ipsighast, the Lustful"/>
+			<pick key="name" qty="1" value="Muscle Tribe of Danger and Excellence"/>
+			<pick key="name" qty="1" value="Opportunistic Pirate"/>
+			<pick key="name" qty="1" value="Rapine"/>
+			<pick key="name" qty="1" value="Rasputin Unleashed"/>
+			<pick key="name" qty="1" value="Roundalicious Breasticles"/>
+			<pick key="name" qty="1" value="Rusty Pickaxe"/>
+			<pick key="name" qty="1" value="Scrag"/>
+			<pick key="name" qty="1" value="Slinking Bandido"/>
+			<pick key="name" qty="1" value="Thabbashite Assailant"/>
+			<pick key="name" qty="1" value="Thabbashite Serpent Rider"/>
+			<pick key="name" qty="1" value="Tough Crowd"/>
+			<pick key="name" qty="1" value="Unwieldy Spy Equipment"/>
+			<pick key="name" qty="1" value="Faceless Seer"/>
+			<pick key="name" qty="1" value="Obol of Deception"/>
+			<pick key="name" qty="1" value="Obol of Elitism"/>
+			<pick key="name" qty="1" value="Obol of Greed"/>
+			<pick key="name" qty="1" value="Obol of Obsession"/>
+			<pick key="name" qty="1" value="Obol of Rage"/>
+			<pick key="name" qty="1" value="Purge the Villainous"/>
+			<pick key="name" qty="1" value="Purifier of the Fallen"/>
+			<pick key="name" qty="1" value="Quilt of Old Banners"/>
+			<pick key="name" qty="1" value="Soulsearcher"/>
+			<pick key="name" qty="1" value="Unwelcome Hero"/>
+			<pick key="name" qty="1" value="Adriel, Supreme General of the Imperial Army"/>
+			<pick key="name" qty="1" value="Armageddon Man"/>
+			<pick key="name" qty="1" value="Boilstorm"/>
+			<pick key="name" qty="1" value="Breath of the Barduse"/>
+			<pick key="name" qty="1" value="Chain Reaction"/>
+			<pick key="name" qty="1" value="Corpse Churner"/>
+			<pick key="name" qty="1" value="Deadly Striker"/>
+			<pick key="name" qty="1" value="Drill Garrison"/>
+			<pick key="name" qty="1" value="Dual Blade Assassin"/>
+			<pick key="name" qty="1" value="Escort Ally"/>
+			<pick key="name" qty="1" value="Foundation Ravager"/>
+			<pick key="name" qty="1" value="Lightning Barrage"/>
+			<pick key="name" qty="1" value="Master General"/>
+			<pick key="name" qty="1" value="Mutual Mutilator"/>
+			<pick key="name" qty="1" value="Overcompensator"/>
+			<pick key="name" qty="1" value="Pepper Breath"/>
+			<pick key="name" qty="1" value="Plunging Shriever"/>
+			<pick key="name" qty="1" value="Rapacious Soldier"/>
+			<pick key="name" qty="1" value="Shriever Attack"/>
+			<pick key="name" qty="1" value="Shriever General"/>
+			<pick key="name" qty="1" value="Silencer"/>
+			<pick key="name" qty="1" value="Storm the Gates"/>
+			<pick key="name" qty="1" value="Sweeping Destruction"/>
+			<pick key="name" qty="1" value="Tempered Rage"/>
+			<pick key="name" qty="1" value="Trebuchet Officer"/>
+			<pick key="name" qty="1" value="War Beast"/>
+			<pick key="name" qty="1" value="Watchtower"/>
+			<pick key="name" qty="1" value="Aristocracy"/>
+			<pick key="name" qty="1" value="Avarice"/>
+			<pick key="name" qty="1" value="Duplicity"/>
+			<pick key="name" qty="1" value="Entitlement"/>
+			<pick key="name" qty="1" value="Fanaticism"/>
+			<pick key="name" qty="1" value="Insanity"/>
+			<pick key="name" qty="1" value="Lust"/>
+			<pick key="name" qty="1" value="Materialism"/>
+			<pick key="name" qty="1" value="Narcissism"/>
+			<pick key="name" qty="1" value="Paranoia"/>
+			<pick key="name" qty="1" value="Deception"/>
+			<pick key="name" qty="1" value="Elitism"/>
+			<pick key="name" qty="1" value="Greed"/>
+			<pick key="name" qty="1" value="Obsession"/>
+			<pick key="name" qty="1" value="Rage"/>
+			<pick key="name" qty="1" value="Demon"/>
+			<pick key="name" qty="1" value="Micromajig"/>
+		</pack>
+	</packaging>
 	<cards>
 		<card id="aa10b633-14ac-4cb9-b1b7-81595f2b233d" name="Alistar Wixthorough">
 			<property name="Rarity" value="Fixed"/>

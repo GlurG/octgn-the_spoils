@@ -1,4 +1,7 @@
 changelog = {
+	"1.0.0.4": [
+		"Packaging information added for 'Decade of Deckadence' and 'Seed 3' to enable Limited Games."
+	],
 	"1.0.0.3": [
 		"Added 'Decade of Deckadence' set.",
 		"'Unwise Encirclement' is now correctly tagged as a tactic (instead of a character).",

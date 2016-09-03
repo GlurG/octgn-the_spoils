@@ -1,6 +1,53 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 
 <set gameId="b9cd80f4-2af0-11e6-b67b-9e71128cae77" gameVersion="1.3.1" id="b6c94ada-f56e-41e5-80d0-c90186e23459" name="Seed 3" version="1.0">
+	<packaging>
+		<pack id="2df70d4f-fd93-3e72-82ce-6c1c8d26a394" name="Box">
+			<pick key="name" qty="1" value="Cowslaw"/>
+			<pick key="name" qty="1" value="Devilfang Thunderhoof"/>
+			<pick key="name" qty="1" value="Geiseric, the Souleater"/>
+			<pick key="name" qty="1" value="God's Autograph"/>
+			<pick key="name" qty="1" value="Pony Slaystation"/>
+			<pick key="name" qty="1" value="Spatchcocking"/>
+			<pick key="name" qty="1" value="The Stone of Shame"/>
+			<pick key="name" qty="1" value="Anatidaephobia"/>
+			<pick key="name" qty="1" value="Fecal Urgency"/>
+			<pick key="name" qty="1" value="Intriguing Mezzanine"/>
+			<pick key="name" qty="1" value="Port Manteau"/>
+			<pick key="name" qty="1" value="Prestige Inversion"/>
+			<pick key="name" qty="1" value="Vilghame Manewaft"/>
+			<pick key="name" qty="1" value="94r913 My 908570pp3r5"/>
+			<pick key="name" qty="1" value="Ensmallment Ray"/>
+			<pick key="name" qty="1" value="Hilarious Refrigerator Alarm"/>
+			<pick key="name" qty="1" value="Merbegon, the Insatiable Taxidermist"/>
+			<pick key="name" qty="1" value="Notion Sickness"/>
+			<pick key="name" qty="1" value="Axeclaw Grandchest"/>
+			<pick key="name" qty="1" value="Community Chest"/>
+			<pick key="name" qty="1" value="Delicious Strawberry Flavored Death"/>
+			<pick key="name" qty="1" value="Fornicaves"/>
+			<pick key="name" qty="1" value="Iohane, the Convex"/>
+			<pick key="name" qty="1" value="Ipsighast, the Lustful"/>
+			<pick key="name" qty="1" value="Unscrupuls of Victory"/>
+			<pick key="name" qty="1" value="Giada, the Elegant"/>
+			<pick key="name" qty="1" value="Octo-Ba-Ba, the Devourer"/>
+			<pick key="name" qty="1" value="Shieldmane Grandchest"/>
+			<pick key="name" qty="1" value="The Great Wall of Keeping Stuff Out"/>
+			<pick key="name" qty="1" value="The Stone of Triumph"/>
+			<pick key="name" qty="1" value="Obsession"/>
+			<pick key="name" qty="1" value="Greed"/>
+			<pick key="name" qty="1" value="Elitism"/>
+			<pick key="name" qty="1" value="Deception"/>
+			<pick key="name" qty="1" value="Rage"/>
+			<pick key="name" qty="1" value="The Evil Alliance"/>
+			<pick key="name" qty="1" value="The Society of Magical Propriety"/>
+			<pick key="name" qty="1" value="The Knitting Coalition"/>
+			<pick key="name" qty="1" value="The Open R&amp;D Faction"/>
+			<pick key="name" qty="1" value="The Union of Unextraordinary Miners"/>
+			<pick key="name" qty="1" value="Imperial Army"/>
+			<pick key="name" qty="1" value="Counter-Imperial Army"/>
+			<pick key="name" qty="1" value="Slightly Less Evil Alliance"/>
+		</pack>
+	</packaging>
 	<cards>
 		<card id="0833ee0d-bce2-43b5-bb59-c01271b2aad5" name="Cowslaw">
 			<property name="Rarity" value="Fixed"/>
